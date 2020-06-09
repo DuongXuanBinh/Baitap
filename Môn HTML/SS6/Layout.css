@@ -1,0 +1,92 @@
+
+body{
+    font-family: "Sofia";
+    background-color: #F5F5F5;
+}
+#main {
+    width: 1200px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-image: url("img/pngtree-pink-dream-cherry-blossoms-falling-gradually-background-image_88533.jpg");
+    background-size: cover;
+    color: palevioletred;
+    padding-top: 5px;
+    padding-right: 40px;
+    text-align: right;
+    font-size: 40px;
+}
+#head-link{
+    height: 50px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    clear: both;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 19px;
+    background-color: #FFEBEB;
+
+}
+#left{
+    width:250px;
+    min-height: 400px;
+    background-color: #FFEBEB;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 5px;
+    top:10px;
+    position: sticky;
+}
+#content{
+    width: 640px;
+    min-height: 800px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: #FFEBEB;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-indent: 15px;
+}
+#right{
+    width: 250px;
+    min-height: 400px;
+    border-radius: 10px;
+    float: right;
+    position: sticky;
+    margin-bottom: 5px;
+    background-color: #FFEBEB;
+    top:10px;
+    position: sticky;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    clear: both;
+    border-radius: 10px;
+    background-color: #FFEBEB;
+}
+a:visited{
+    color: #000055 ;
+}
+a:hover{
+    background-color: lightpink;
+}
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
