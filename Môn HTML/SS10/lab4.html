@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example3</title>
+    <style>
+        *{
+            font-family: Arial, Verdana, sans-serif;
+            background-color: #f8f8f8;
+        }
+        li{
+            list-style-image: url("icon-plus.png");
+            padding-bottom: 10px;
+        }
+        table{
+            border-spacing: 0px;
+            width: 750px;
+            margin-bottom: 20px;
+        }
+        table th{
+            border-right: 1px solid #739abf ;
+            border-bottom: 3px solid #739abf;
+            border-top: none;
+            background-color: #90b4d6;
+            color: white;
+            text-shadow: 0.5px -2px gray;
+            line-height: 30px;
+            text-align: left;
+            padding-left: 15px;
+            letter-spacing: 1px;
+        }
+        th:first-child{
+            border-radius: 10px 0 0 0;
+        }
+        th:last-child{
+            border-radius: 0 10px 0 0;
+        }
+        table td{
+            border: 0.5px solid #cbd2d9;
+            border-left: none;
+            padding-left: 10px;
+            line-height: 25px;
+            color: #666666;
+        }
+        .left{
+            text-align: left;
+            padding-left: 10px;
+            font-weight: bold;
+            width: 280px;
+        }
+        tr:nth-child(even) td{
+            background-color: #e1eaf8;
+        }
+        tr:nth-child(odd) td{
+            background-color: #e8f0f5;
+        }
+        fieldset{
+            width: 450px;
+            border: 1px solid #d6d6d6;
+            color: #666666;
+            height: 150px;
+            background-color: white;
+            margin-bottom: 15px;
+        }
+        legend{
+            font-style: italic;
+        }
+        input,select,label{
+            background-color: white;
+            margin-bottom: 15px;
+        }
+        input, select{
+            border: 1px solid #d6d6d6;
+            padding-left: 40px;
+            display: inline-block;
+        }
+        .button{
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: #119966;
+            color: white;
+            width: 80px;
+            height: 30px;
+            margin-left: 370px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Poetry Workshops</h1>
+<p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+<p>Please note that the following events are free to members</p>
+<ul>
+    <li>A Poetic Perspective</li>
+    <li>Walt Whitman at War</li>
+    <li>Found Poems and Outsider Poetry</li>
+</ul>
+
+<table>
+    <tr>
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+    </tr>
+    <tr>
+        <td class="left">A poetic Perspective</td>
+        <td>Sat,4 Feb 2012 11am-2pm</td>
+        <td>Sat, 3 Mar 2012 11am-2pm</td>
+        <td>Sat, 17 Mar 2012 11am-2pm</td>
+    </tr>
+    <tr>
+        <td class="left">Walt Whitman at War</td>
+        <td>Sat,7 Apr 2012 11am-1pm</td>
+        <td>Sat, 5 May 2012 11am-1pm</td>
+        <td>Sat,19 May 2012 11am-1pm</td>
+    </tr>
+    <tr>
+        <td class="left">Found Poems & Outsider Poetry</td>
+        <td>Sat, 9 Jun 2012 11am-2pm</td>
+        <td>Sat, 7 Jul 2012 11am-2pm</td>
+        <td>Sat, 21 Jul 2012 11am-2pm</td>
+    </tr>
+    <tr>
+        <td class="left">Natural Death: An Exploration</td>
+        <td>Sat, 4 Aug 2012 11am-4pm</td>
+        <td>Sat, 8 Sep 2012 11am-4pm</td>
+        <td>Sat, 15 Sep 2012 11am-4pm</td>
+    </tr>
+</table>
+<fieldset>
+    <legend> Register your interest</legend>
+    <label for="nameuser">Your name:</label>
+    <input type="text" id="nameuser" name=""><br>
+    <label for="emailuser">Your email:</label>
+    <input type="email" id="emailuser" name=""><br>
+    <label for="center">Your closest center:</label>
+    <select name="" id="center">
+        <option value="New york">New York</option>
+        <option value="Washington">Washington</option>
+    </select><br>
+    <label>Are you a member?</label>
+    <input type="radio" id="yes" value=""> Yes
+    <input type="radio" id="no" value="" > No
+
+</fieldset>
+<input class="button" type="submit" value="Register">
+</body>
+</html>

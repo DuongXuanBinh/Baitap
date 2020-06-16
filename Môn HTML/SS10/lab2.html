@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            color: #665544;
+            font-family: Arial, Verdana, sans-serif;
+        }
+        input{
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: 1px dotted #dcdcdc;
+            margin-bottom: 20px;
+            padding: 5px;
+            width: 280px;
+        }
+        input:focus{
+            border: 1px dotted #dcdcdc;
+            outline: none;
+        }
+        input#submit{
+            color: #FFFFFF;
+            background-color: #665544;
+            border: none;
+            border-radius: 5px;
+            width: 180px;
+            text-transform: uppercase;
+        }
+        input#submit:hover{
+            color: #665544;
+            background-color: #efefef;
+        }
+        fieldset{
+            border-radius: 10px;
+            border: 1px solid #dcdcdc;
+            width: 350px;
+            padding: 20px;
+            text-align: right;
+        }
+        legend{
+            background-color: #efefef;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            text-transform: uppercase;
+            padding: 10px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Newsletter</legend>
+        <label for="Name">Name: </label>
+        <input type="text" id="Name">
+
+        <label for="Email">Email: </label>
+        <input type="email" id="Email">
+
+        <input id="submit" type="submit" value="Subscribe">
+    </fieldset>
+
+
+</body>
+</html>
