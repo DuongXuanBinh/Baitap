@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yoko</title>
+    <style>
+        body{
+            background-image: url("dark-wood.jpg");
+            font-family: Georgia, Times, serif;
+            color: #666666;
+        }
+        div{
+            width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            background-color: #FFFFFF;
+        }
+        ul{
+            background-color: #afaca8;
+            padding-left: 30px;
+            word-spacing: 25px;
+            font-size: 20px;
+            height: 45px;
+            margin-top: -5px;
+            margin-bottom: 0px;
+            clear: both;
+        }
+        ul li{
+            list-style-type: none;
+            display: inline-block;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        ul li:hover{
+            color: black;
+        }
+        section{
+            margin-top: 0px;
+            width: 650px;
+            float: left;
+            margin: 0px;
+        }
+        aside{
+            float: right;
+            width: 250px;
+            border-left: 1px solid #afaca8;
+            padding-left: 10px;
+            margin-top: 0px;
+        }
+        figure{
+            border: 1px solid #afaca8;
+            margin-left: 15px;
+            width: 300px;
+            float: left;
+            margin-right: 20px;
+        }
+        .img{
+            margin: 5px;
+        }
+        figcaption{
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        footer{
+            display: flex;
+            background-color: #afaca8;
+            clear: both;
+            padding-left: 30px;
+            color: #FFFFFF;
+            height: 30px;
+            padding-top: 15px;
+            font-size: 90%;
+            margin-top: 0px;
+        }
+        h1{
+            font-size: 150%;
+            margin-bottom: 0px;
+        }
+        h2{
+            font-size: 100%;
+            color: #de6581;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        p{
+            line-height: 1.5em;
+        }
+        .break{
+            margin-bottom: 90px;
+        }
+        .head{
+            margin-top: 35px;
+            color: #de6581;
+            font-size: 150%;
+            padding-left: 5px;
+        }
+        a{
+            color: #de6581;
+            padding-left: 15px;
+            text-decoration: none;
+            margin-right: 40px;
+            display: block;
+            border-bottom: 1px solid #afaca8;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        a:hover{
+            background-color: #afaca8;
+            color: #b40064;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <header><img src="header.jpg" alt=""></header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>classes</li>
+            <li>catering</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+        <figure>
+            <img class="img" src="bok-choi.jpg" alt="">
+            <figcaption>Bokchoi</figcaption>
+        </figure><br>
+        <h1>Japanese Vegetarian</h1>
+        <h2>Five week course in London</h2>
+        <p class="break">A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noddle dishes.</p>
+        </article>
+        <article>
+        <figure>
+            <img class="img" src="teriyaki.jpg" alt="" style="float: left">
+            <figcaption>Teriyaki Sauce</figcaption>
+        </figure><br>
+        <h1>Sauces Masterclass</h1>
+        <h2>One day workshop</h2>
+        <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery</p>
+        </article>
+    </section>
+    <aside>
+        <p class="head">Popular Recipes</p>
+        <a href="#">Yakitori (grilled chicken)</a><br>
+        <a href="#">Tsukune (minced chicken patties)</a><br>
+        <a href="#">Okonomiyaki (savory pancakes)</a><br>
+        <a href="#">Mizutaki (chicken stew)</a><br>
+        <p class="head">Contact</p>
+        <p style="padding-left: 5px">Yoko's Kitchen <br> 27 Redchurch Street <br> Shoreditch <br> London E2 7DP</p>
+    </aside>
+    <footer>&copy;2011 Yoko's Kitchen</footer>
+</div>
+</body>
+</html>
