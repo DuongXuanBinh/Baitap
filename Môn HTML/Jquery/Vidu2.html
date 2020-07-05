@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../Layout/jquery/jquery-3.5.1.js"></script>
+    <style>
+        /*#showdog{
+            border: 1px solid black;
+            background-color: #a87227;
+            width: 200px;
+            height: 50px;
+        }
+        #start {
+            width: 200px;
+            height: auto;
+            background-color: #a87227;
+        }
+        #start img{
+            margin: 10px auto 10px auto;
+        }*/
+        #clickme{
+            background-color: #D8B36E;
+            padding: 20px;
+            text-align: center;
+            width: 205px;
+            display: block;
+            border: 2px solid #000;
+        }
+        #picframe{
+            background-color: #D8B36E;
+            padding: 20px;
+            width: 205px;
+            display: none;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+<div id="clickme">Show me the Furry Friend of the Day</div>
+<div id="picframe">
+    <img src="../Layout/img/A_dog_resting_in_the_Iraklion_street,_Greece.jpg" alt="dog" width="200" height="auto">
+</div>
+<script>
+    $(document).ready(function(){
+        $("#clickme").click(function () {
+            $('img').fadeIn(9000);
+            $('#picframe').slideToggle('slow');
+        })
+        });
+</script>
+</body>
+</html>

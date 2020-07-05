@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../Layout/CSS/bootstrap.min.css">
+    <script src="../Layout/jquery/jquery-3.5.1.min.js"></script>
+    <script src="../Layout/js/bootstrap.min.js"></script>
+    <style>
+        #change_me{
+            position: absolute;
+            top: 100px;
+            left: 200px;
+            border: 1px solid green;
+            background-color: #bca;
+            font: 24px Arial;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<button id="moveup">Move up</button>
+<button id="movedown">Move down</button>
+<button id="color">Add color</button>
+<button id="disappear">Disappear/re-appear</button>
+
+<div id="change_me">Make me do stuff!</div>
+<script>
+    $(document).ready(function () {
+        $("#moveup").click(function () {
+            $("#change_me").animate({
+                top: 30
+                },200);
+        });
+        $("#movedown").click(function () {
+            $("#change_me").animate({
+                top:500
+            },2000);
+        });
+        $("#color").click(function () {
+            $("#change_me").css({
+                "background-color": "yellow",
+                "font-weight": "bolder"
+            });
+        });
+        $("#disappear").click(function () {
+            $("#change_me").toggle('slow');
+        });
+    });
+
+</script>
+</body>
+</html>
