@@ -9,11 +9,11 @@ img[1]='<img src="../Layout/img/beach.svg" alt="">'
 img[2]='<img src="../Layout/img/robot.svg" alt="">'
 
 $(document).ready(function () {
-    do{
+    while(randomNum1===randomNum2||randomNum2===randomNum3||randomNum3===randomNum1){
         randomNum1 = Math.floor(Math.random() * 3);
         randomNum2 = Math.floor(Math.random() * 3);
         randomNum3 = Math.floor(Math.random() * 3);
-    }while(randomNum1===randomNum2||randomNum2===randomNum3||randomNum3===randomNum1);
+    }
     $('#div1').click(function(){
         click+=1;
         document.getElementById('div1').innerHTML=img[randomNum1];
