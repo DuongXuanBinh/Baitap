@@ -1,5 +1,5 @@
-﻿CREATE DATABASE Lab6
-USE Lab6
+﻿CREATE DATABASE Lab5
+USE Lab5
 GO
 
 CREATE TABLE Mat_Hang (
@@ -91,4 +91,19 @@ ADD CONSTRAINT chk2 CHECK(NgayDat > getdate())
 GO
 ALTER TABLE Mat_Hang
 ADD NgayXH datetime
+GO
+--8
+CREATE INDEX Index1 ON Mat_Hang(TenSP)
+CREATE INDEX Index2 ON Khach_Hang(TenKH)
+GO
+CREATE VIEW View_KhachHang AS 
+SELECT TenKH,Diachi,SDT FROM Khach_Hang
+GO
+CREATE VIEW View_SanPham AS 
+SELECT TenSP,Gia FROM Mat_Hang
+GO
+CREATE VIEW View_KhachHang_SanPham AS
+SELECT TenKH,SDT, TenSP,SoLuong,NgayDat FROM Khach_Hang
+JOIN Don_Hang ON Khach_Hang.MaKH=Don_Hang.MaKH
+JOIN Don_Hang_CT ON Don_Hang.MaDon=Don_Hang_CT.MaDon
 GO
