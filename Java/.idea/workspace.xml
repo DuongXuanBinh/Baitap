@@ -58,22 +58,9 @@
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Vidu9">
-    <configuration name="Vidu12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Session5.Vidu12" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Session5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vidu3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Session6.Vidu3" />
+  <component name="RunManager" selected="Application.Vidu19">
+    <configuration name="Vd1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session6.Vd1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vidu4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Session5.Vidu4" />
+    <configuration name="Vidu19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session8.Vidu19" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Session5.*" />
+          <option name="PATTERN" value="Session8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vidu6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session7.Vidu6" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Session7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,26 +124,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vidu19" />
+        <item itemvalue="Application.Vd1" />
+        <item itemvalue="Application.Vidu6" />
         <item itemvalue="Application.Vidu9" />
         <item itemvalue="Application.Vidu7" />
-        <item itemvalue="Application.Vidu3 (1)" />
-        <item itemvalue="Application.Vidu12" />
-        <item itemvalue="Application.Vidu4" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +159,9 @@
       <workItem from="1602067297986" duration="8467000" />
       <workItem from="1602126069747" duration="3800000" />
       <workItem from="1602153582464" duration="5596000" />
+      <workItem from="1602209528716" duration="2512000" />
+      <workItem from="1602379975448" duration="14185000" />
+      <workItem from="1602465891920" duration="11221000" />
     </task>
     <servers />
   </component>
@@ -188,29 +189,33 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1360.728@0.0.1360.728" timestamp="1602036437943" />
-    <state width="838" height="157" key="GridCell.Tab.0.bottom" timestamp="1602166285847">
+    <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602401008020">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="838" height="157" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1602166285847" />
-    <state width="838" height="157" key="GridCell.Tab.0.center" timestamp="1602166285847">
+    <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1602401008020" />
+    <state width="838" height="157" key="GridCell.Tab.0.bottom" timestamp="1602434303117">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="838" height="157" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1602166285847" />
-    <state width="838" height="157" key="GridCell.Tab.0.left" timestamp="1602166285847">
+    <state width="838" height="157" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1602434303117" />
+    <state width="838" height="157" key="GridCell.Tab.0.center" timestamp="1602434303116">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="838" height="157" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1602166285847" />
-    <state width="838" height="157" key="GridCell.Tab.0.right" timestamp="1602166285847">
+    <state width="838" height="157" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1602434303116" />
+    <state width="838" height="157" key="GridCell.Tab.0.left" timestamp="1602434303113">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="838" height="157" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1602166285847" />
+    <state width="838" height="157" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1602434303113" />
+    <state width="838" height="157" key="GridCell.Tab.0.right" timestamp="1602434303116">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="838" height="157" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1602434303116" />
     <state x="568" y="115" width="698" height="488" key="dock-window-1" timestamp="1602155601129">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="568" y="115" width="698" height="488" key="dock-window-1/0.0.1360.728@0.0.1360.728" timestamp="1602155601129" />
-    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602155006902">
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1602401002624">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1602155006902" />
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1602401002624" />
   </component>
 </project>
