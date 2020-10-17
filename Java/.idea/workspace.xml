@@ -53,12 +53,28 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lab6" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src" />
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestAccount">
+  <component name="RunManager" selected="Application.TestLineSub">
+    <configuration name="FTicketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example2.FTicketTest" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab5.ex6.TestAccount" />
       <module name="Java" />
@@ -72,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab5.ex5.TestCustomer" />
+    <configuration name="TestLineSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab6.TestLineSub" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab5.ex5.*" />
+          <option name="PATTERN" value="Lab6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInvoice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab5.ex5.TestInvoice" />
+    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab6.TestPerson" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab5.ex5.*" />
+          <option name="PATTERN" value="Lab6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab5.ex3.TestMyPoint" />
+    <configuration name="TestPoint2DPoint3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab6.TestPoint2DPoint3D" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab5.ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryMyTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab5.ex4.TryMyTriangle" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab5.ex4.*" />
+          <option name="PATTERN" value="Lab6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLineSub" />
+        <item itemvalue="Application.TestPerson" />
+        <item itemvalue="Application.TestPoint2DPoint3D" />
+        <item itemvalue="Application.FTicketTest" />
         <item itemvalue="Application.TestAccount" />
-        <item itemvalue="Application.TestInvoice" />
-        <item itemvalue="Application.TestCustomer" />
-        <item itemvalue="Application.TestMyPoint" />
-        <item itemvalue="Application.TryMyTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +169,8 @@
       <workItem from="1602638695427" duration="9071000" />
       <workItem from="1602672671749" duration="12887000" />
       <workItem from="1602724975331" duration="19221000" />
+      <workItem from="1602810404287" duration="8423000" />
+      <workItem from="1602902572887" duration="6602000" />
     </task>
     <servers />
   </component>
@@ -193,10 +198,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1601869540347" />
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1602751949470">
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1602912057512">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1602751949470" />
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1602912057512" />
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602036437943">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -205,30 +210,30 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1602401008020" />
-    <state width="1317" height="102" key="GridCell.Tab.0.bottom" timestamp="1602753609396">
+    <state width="624" height="99" key="GridCell.Tab.0.bottom" timestamp="1602912616605">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="102" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1602753609396" />
-    <state width="1317" height="102" key="GridCell.Tab.0.center" timestamp="1602753609396">
+    <state width="624" height="99" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1602912616605" />
+    <state width="624" height="99" key="GridCell.Tab.0.center" timestamp="1602912616604">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="102" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1602753609396" />
-    <state width="1317" height="102" key="GridCell.Tab.0.left" timestamp="1602753609396">
+    <state width="624" height="99" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1602912616604" />
+    <state width="624" height="99" key="GridCell.Tab.0.left" timestamp="1602912616604">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="102" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1602753609396" />
-    <state width="1317" height="102" key="GridCell.Tab.0.right" timestamp="1602753609396">
+    <state width="624" height="99" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1602912616604" />
+    <state width="624" height="99" key="GridCell.Tab.0.right" timestamp="1602912616605">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="102" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1602753609396" />
+    <state width="624" height="99" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1602912616605" />
     <state x="568" y="115" width="698" height="488" key="dock-window-1" timestamp="1602155601129">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="568" y="115" width="698" height="488" key="dock-window-1/0.0.1360.728@0.0.1360.728" timestamp="1602155601129" />
-    <state x="125" y="0" key="new project wizard" timestamp="1602748502858">
+    <state x="125" y="0" key="new project wizard" timestamp="1602815131282">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="125" y="0" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1602748502858" />
+    <state x="125" y="0" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1602815131282" />
     <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1602732201501">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
