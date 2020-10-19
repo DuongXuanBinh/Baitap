@@ -55,7 +55,7 @@ public class BookRepositoryTest {
             System.out.println("ISBN \t\t\tName \t\t\tAuthor Name \t\tPrice \t\tYear of publication");
             System.out.println("====================================================================");
             for(int i=0;i<bookCount;i++){
-                if(books[i].name==searchName){
+                if(books[i].name.equals(searchName)){
                     System.out.printf("%d\t\t\t",books[i].isbn);
                     System.out.printf("%s\t\t\t",books[i].name);
                     System.out.printf("%s\t\t",books[i].authorName);
