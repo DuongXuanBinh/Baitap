@@ -61,13 +61,13 @@
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLineSub">
-    <configuration name="FTicketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example2.FTicketTest" />
+  <component name="RunManager" selected="Application.BookRepositoryTest">
+    <configuration name="BookISBNTTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example3.bookisbn.BookISBNTTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example2.*" />
+          <option name="PATTERN" value="example3.bookisbn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab5.ex6.TestAccount" />
+    <configuration name="BookRepositoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example3.bookrespository.BookRepositoryTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab5.ex6.*" />
+          <option name="PATTERN" value="example3.bookrespository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example2.TestClass" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab6.TestPerson" />
+    <configuration name="TestTime1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab4.TestTime1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab6.*" />
+          <option name="PATTERN" value="Lab4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,37 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPoint2DPoint3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab6.TestPoint2DPoint3D" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookRepositoryTest" />
+        <item itemvalue="Application.BookISBNTTest" />
+        <item itemvalue="Application.TestTime1" />
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.TestLineSub" />
-        <item itemvalue="Application.TestPerson" />
-        <item itemvalue="Application.TestPoint2DPoint3D" />
-        <item itemvalue="Application.FTicketTest" />
-        <item itemvalue="Application.TestAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +173,9 @@
       <workItem from="1602724975331" duration="19221000" />
       <workItem from="1602810404287" duration="8423000" />
       <workItem from="1602902572887" duration="6602000" />
+      <workItem from="1602926111672" duration="690000" />
+      <workItem from="1603069783188" duration="10571000" />
+      <workItem from="1603097822635" duration="14681000" />
     </task>
     <servers />
   </component>
@@ -198,10 +203,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1601869540347" />
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1602912057512">
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1603070830525">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1602912057512" />
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1603070830525" />
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602036437943">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -210,33 +215,37 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1602401008020" />
-    <state width="624" height="99" key="GridCell.Tab.0.bottom" timestamp="1602912616605">
+    <state width="1317" height="530" key="GridCell.Tab.0.bottom" timestamp="1603125988213">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="624" height="99" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1602912616605" />
-    <state width="624" height="99" key="GridCell.Tab.0.center" timestamp="1602912616604">
+    <state width="1317" height="530" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603125988213" />
+    <state width="1317" height="530" key="GridCell.Tab.0.center" timestamp="1603125988212">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="624" height="99" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1602912616604" />
-    <state width="624" height="99" key="GridCell.Tab.0.left" timestamp="1602912616604">
+    <state width="1317" height="530" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1603125988212" />
+    <state width="1317" height="530" key="GridCell.Tab.0.left" timestamp="1603125988212">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="624" height="99" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1602912616604" />
-    <state width="624" height="99" key="GridCell.Tab.0.right" timestamp="1602912616605">
+    <state width="1317" height="530" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1603125988212" />
+    <state width="1317" height="530" key="GridCell.Tab.0.right" timestamp="1603125988213">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="624" height="99" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1602912616605" />
+    <state width="1317" height="530" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1603125988213" />
     <state x="568" y="115" width="698" height="488" key="dock-window-1" timestamp="1602155601129">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="568" y="115" width="698" height="488" key="dock-window-1/0.0.1360.728@0.0.1360.728" timestamp="1602155601129" />
+    <state x="410" y="125" key="extract.method.dialog" timestamp="1603100752877">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="410" y="125" key="extract.method.dialog/0.0.1360.728@0.0.1360.728" timestamp="1603100752877" />
     <state x="125" y="0" key="new project wizard" timestamp="1602815131282">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="125" y="0" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1602815131282" />
-    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1602732201501">
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1603071922493">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1602732201501" />
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1603071922493" />
   </component>
 </project>

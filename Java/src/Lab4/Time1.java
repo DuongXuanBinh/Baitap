@@ -46,9 +46,9 @@ public class Time1 {
     }
 
     public void setTime(int hour,int minute, int second){
-        this.hour=hour;
-        this.minute=minute;
-        this.second=second;
+        this.setSecond(second);
+        this.setMinute(minute);
+        this.setHour(hour);
     }
     public String toString(){
         return String.format("%02d/%02d/%02d",hour,minute,second);
