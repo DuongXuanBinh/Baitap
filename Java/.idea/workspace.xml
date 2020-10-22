@@ -54,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lab8" />
+      <recent name="Session8" />
       <recent name="Lab6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -61,13 +63,13 @@
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookRepositoryTest">
-    <configuration name="BookISBNTTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example3.bookisbn.BookISBNTTest" />
+  <component name="RunManager" selected="Application.TestCasting">
+    <configuration name="EmployeeDetails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session10.EmployeeDetails" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example3.bookisbn.*" />
+          <option name="PATTERN" value="Session10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookRepositoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example3.bookrespository.BookRepositoryTest" />
+    <configuration name="TestCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab9.TestCasting" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example3.bookrespository.*" />
+          <option name="PATTERN" value="Lab9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example2.TestClass" />
+    <configuration name="TestPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab8.Point.TestPoint" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example2.*" />
+          <option name="PATTERN" value="Lab8.Circle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLineSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab6.TestLineSub" />
+    <configuration name="TestPoint3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab8.Point2D.TestPoint3D" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab6.*" />
+          <option name="PATTERN" value="Lab8.Circle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTime1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.TestTime1" />
+    <configuration name="TestShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab8.Shape.TestShape" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab4.*" />
+          <option name="PATTERN" value="Lab8.Shape.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,24 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BookRepositoryTest" />
-        <item itemvalue="Application.BookISBNTTest" />
-        <item itemvalue="Application.TestTime1" />
-        <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.TestLineSub" />
+        <item itemvalue="Application.TestCasting" />
+        <item itemvalue="Application.TestShape" />
+        <item itemvalue="Application.TestPoint" />
+        <item itemvalue="Application.TestPoint3D" />
+        <item itemvalue="Application.EmployeeDetails" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +179,11 @@
       <workItem from="1603069783188" duration="10571000" />
       <workItem from="1603097822635" duration="14681000" />
       <workItem from="1603126095390" duration="900000" />
+      <workItem from="1603243557313" duration="9856000" />
+      <workItem from="1603277214880" duration="2076000" />
+      <workItem from="1603332817156" duration="5882000" />
+      <workItem from="1603357107531" duration="7502000" />
+      <workItem from="1603373048208" duration="5833000" />
     </task>
     <servers />
   </component>
@@ -198,38 +207,58 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="396" y="85" key="#Inspections/0.0.1360.728@0.0.1360.728" timestamp="1602740433337" />
+    <state x="268" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603279328154">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="268" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1603279328154" />
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601869540347">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1601869540347" />
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1603070830525">
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1603378127636">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1603070830525" />
-    <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602036437943">
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1603378127636" />
+    <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603361229548">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1360.728@0.0.1360.728" timestamp="1602036437943" />
+    <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1360.728@0.0.1360.728" timestamp="1603361229548" />
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602401008020">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1602401008020" />
-    <state width="1317" height="296" key="GridCell.Tab.0.bottom" timestamp="1603126996316">
+    <state width="634" height="294" key="GridCell.Tab.0.bottom" timestamp="1603379365166">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="296" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603126996316" />
-    <state width="1317" height="296" key="GridCell.Tab.0.center" timestamp="1603126996316">
+    <state width="634" height="294" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603379365166" />
+    <state width="634" height="294" key="GridCell.Tab.0.center" timestamp="1603379365166">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="296" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1603126996316" />
-    <state width="1317" height="296" key="GridCell.Tab.0.left" timestamp="1603126996316">
+    <state width="634" height="294" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1603379365166" />
+    <state width="634" height="294" key="GridCell.Tab.0.left" timestamp="1603379365165">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="296" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1603126996316" />
-    <state width="1317" height="296" key="GridCell.Tab.0.right" timestamp="1603126996316">
+    <state width="634" height="294" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1603379365165" />
+    <state width="634" height="294" key="GridCell.Tab.0.right" timestamp="1603379365166">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="296" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1603126996316" />
+    <state width="634" height="294" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1603379365166" />
+    <state width="634" height="222" key="GridCell.Tab.1.bottom" timestamp="1603348756905">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="634" height="222" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
+    <state width="634" height="222" key="GridCell.Tab.1.center" timestamp="1603348756905">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="634" height="222" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
+    <state width="634" height="222" key="GridCell.Tab.1.left" timestamp="1603348756905">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="634" height="222" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
+    <state width="634" height="222" key="GridCell.Tab.1.right" timestamp="1603348756905">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="634" height="222" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
     <state x="568" y="115" width="698" height="488" key="dock-window-1" timestamp="1602155601129">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
