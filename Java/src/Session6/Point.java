@@ -1,4 +1,4 @@
-package Session6;
+package Java.Session6;
 
 public class Point {
     float x;

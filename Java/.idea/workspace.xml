@@ -55,8 +55,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Lab10\ex4" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src" />
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lab10.ex4" />
@@ -64,18 +68,17 @@
       <recent name="Session8" />
       <recent name="Lab6" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src" />
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Lab10\ex4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab10.ex4.Test" />
+      <option name="MAIN_CLASS_NAME" value="Java.Thi.ex2.Test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab10.ex4.*" />
+          <option name="PATTERN" value="Java.Thi.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab10.ex5.Test" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Thi.ex1.Test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab10.ex5.*" />
+          <option name="PATTERN" value="Java.Thi.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +112,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab10.ex4.Test" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab10.ex4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab10.ex5.Test" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab10.ex5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab10.ex2.TestAnimal" />
       <module name="Java" />
@@ -122,39 +151,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab9.TestCasting" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.TestAnimal" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestCasting" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +210,7 @@
       <workItem from="1603508474066" duration="8122000" />
       <workItem from="1603532785086" duration="2489000" />
       <workItem from="1603588903119" duration="1766000" />
+      <workItem from="1603675470064" duration="2893000" />
     </task>
     <servers />
   </component>
@@ -227,34 +242,38 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1601869540347" />
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1603592056193">
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1603677320375">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1603592056193" />
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1603677320375" />
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603428078081">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1360.728@0.0.1360.728" timestamp="1603428078081" />
+    <state x="816" y="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603677395346">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="816" y="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1360.728@0.0.1360.728" timestamp="1603677395346" />
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602401008020">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1602401008020" />
-    <state width="1317" height="298" key="GridCell.Tab.0.bottom" timestamp="1603592572627">
+    <state width="634" height="165" key="GridCell.Tab.0.bottom" timestamp="1603677754632">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="298" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603592572627" />
-    <state width="1317" height="298" key="GridCell.Tab.0.center" timestamp="1603592572627">
+    <state width="634" height="165" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
+    <state width="634" height="165" key="GridCell.Tab.0.center" timestamp="1603677754632">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="298" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1603592572627" />
-    <state width="1317" height="298" key="GridCell.Tab.0.left" timestamp="1603592572626">
+    <state width="634" height="165" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
+    <state width="634" height="165" key="GridCell.Tab.0.left" timestamp="1603677754632">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="298" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1603592572626" />
-    <state width="1317" height="298" key="GridCell.Tab.0.right" timestamp="1603592572627">
+    <state width="634" height="165" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
+    <state width="634" height="165" key="GridCell.Tab.0.right" timestamp="1603677754632">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="298" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1603592572627" />
+    <state width="634" height="165" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
     <state width="634" height="222" key="GridCell.Tab.1.bottom" timestamp="1603348756905">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
