@@ -100,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab10.ex1.Test" />
+      <option name="MAIN_CLASS_NAME" value="Java.Lab10.ex1.Test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab10.ex1.*" />
+          <option name="PATTERN" value="Java.Lab10.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab10.ex5.Test" />
+      <option name="MAIN_CLASS_NAME" value="Java.Lab10.ex5.Test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab10.ex5.*" />
+          <option name="PATTERN" value="Java.Lab10.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
       </method>
     </configuration>
     <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab10.ex2.TestAnimal" />
+      <option name="MAIN_CLASS_NAME" value="Java.Lab10.ex2.TestAnimal" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab10.ex2.*" />
+          <option name="PATTERN" value="Java.Lab10.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,7 +210,7 @@
       <workItem from="1603508474066" duration="8122000" />
       <workItem from="1603532785086" duration="2489000" />
       <workItem from="1603588903119" duration="1766000" />
-      <workItem from="1603675470064" duration="2893000" />
+      <workItem from="1603675470064" duration="3132000" />
     </task>
     <servers />
   </component>
@@ -250,30 +250,30 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1360.728@0.0.1360.728" timestamp="1603428078081" />
-    <state x="816" y="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603677395346">
+    <state x="816" y="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603679565696">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="816" y="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1360.728@0.0.1360.728" timestamp="1603677395346" />
+    <state x="816" y="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1360.728@0.0.1360.728" timestamp="1603679565696" />
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602401008020">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="675" y="93" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1602401008020" />
-    <state width="634" height="165" key="GridCell.Tab.0.bottom" timestamp="1603677754632">
+    <state width="634" height="165" key="GridCell.Tab.0.bottom" timestamp="1603679599237">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="165" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
-    <state width="634" height="165" key="GridCell.Tab.0.center" timestamp="1603677754632">
+    <state width="634" height="165" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603679599237" />
+    <state width="634" height="165" key="GridCell.Tab.0.center" timestamp="1603679599237">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="165" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
-    <state width="634" height="165" key="GridCell.Tab.0.left" timestamp="1603677754632">
+    <state width="634" height="165" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1603679599237" />
+    <state width="634" height="165" key="GridCell.Tab.0.left" timestamp="1603679599237">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="165" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
-    <state width="634" height="165" key="GridCell.Tab.0.right" timestamp="1603677754632">
+    <state width="634" height="165" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1603679599237" />
+    <state width="634" height="165" key="GridCell.Tab.0.right" timestamp="1603679599237">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="165" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1603677754632" />
+    <state width="634" height="165" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1603679599237" />
     <state width="634" height="222" key="GridCell.Tab.1.bottom" timestamp="1603348756905">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
