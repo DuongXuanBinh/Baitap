@@ -1,6 +1,4 @@
-package Java2.Lab2;
-
-import Java.Lab9.C;
+package Java2.Lab2.Self;
 
 import java.util.ArrayList;
 import java.util.Iterator;

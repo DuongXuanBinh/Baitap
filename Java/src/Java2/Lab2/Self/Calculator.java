@@ -1,4 +1,4 @@
-package Java2.Lab2;
+package Java2.Lab2.Self;
 
 import javax.swing.text.Element;
 import java.util.Scanner;
