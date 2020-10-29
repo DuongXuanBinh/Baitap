@@ -87,11 +87,11 @@
       </method>
     </configuration>
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.Self.Calculator" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java2.Lab2.*" />
+          <option name="PATTERN" value="Java2.Lab2.Self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.Main" />
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.Self.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java2.Lab2.*" />
+          <option name="PATTERN" value="Java2.Lab2.Self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="MovieList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.MovieList" />
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.Self.MovieList" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java2.Lab2.*" />
+          <option name="PATTERN" value="Java2.Lab2.Self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
       </method>
     </configuration>
     <configuration name="Temperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.Temperature" />
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab2.Self.Temperature" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java2.Lab2.*" />
+          <option name="PATTERN" value="Java2.Lab2.Self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,6 +204,7 @@
       <workItem from="1603894690044" duration="5705000" />
       <workItem from="1603930450827" duration="5948000" />
       <workItem from="1603968841789" duration="9702000" />
+      <workItem from="1603986064942" duration="48000" />
     </task>
     <servers />
   </component>
