@@ -5,7 +5,7 @@ import java.util.List;
 
 
 public class MovieList {
-    List<String> favmovies = new ArrayList<>();
+    private List<String> favmovies = new ArrayList<>();
     public void addMovie(String movie){
         if(favmovies.contains(movie)){
             System.out.println("Already added");
