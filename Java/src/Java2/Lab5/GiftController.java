@@ -5,21 +5,24 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GiftController {
-    static List<Gift> listObj = new ArrayList<>();
-    static int i = 0;
+    List<Gift> listObj = new ArrayList<>();
+    int i = 0;
 
     public static void main(String[] args) {
-        loading();
-        select();
     }
     //Luu du lieu vao object
-    public static void loading() {
+    public List<Gift> loading() {
         try (
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
                 Statement stmt = conn.createStatement();
         ) {
             String stt = "Select * from books";
             ResultSet rset = stmt.executeQuery(stt);
+            ResultSetMetaData rsetMD = rset.getMetaData();
+            int numColums = rsetMD.getColumnCount();
+            for (int i = 1; i <= numColums; i++) {
+                System.out.printf("%-30s", rsetMD.getColumnName(i));
+            }
             while (rset.next()) {
                 Gift obj = new Gift();
                 obj.setId(rset.getInt("id"));
@@ -34,31 +37,24 @@ public class GiftController {
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
+        return listObj;
     }
     // select thong qua object
-    public static void select() {
-        try (
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
-                Statement stmt = conn.createStatement();
-        ) {
-            String stt = "Select * from books";
-            ResultSet rset = stmt.executeQuery(stt);
-            ResultSetMetaData rsetMD = rset.getMetaData();
-            int numColums = rsetMD.getColumnCount();
-            for (int i = 1; i <= numColums; i++) {
-                System.out.printf("%-30s", rsetMD.getColumnName(i));
-            }
-            System.out.println();
-            for (int i = 0; i < listObj.size(); i++) {
-                System.out.printf("%-30d%-30s%-30s%-30.2f%-30d\n", listObj.get(i).getId(), listObj.get(i).getName(), listObj.get(i).getAuthor(), listObj.get(i).getPrice(), listObj.get(i).getQty());
-            }
-            System.out.printf("There are %d records\n",listObj.size());
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
-    }
+//    public List<Gift> select() {
+//        try (
+//                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
+//                Statement stmt = conn.createStatement();
+//        ) {
+//            String stt = "Select * from books";
+//            ResultSet rset = stmt.executeQuery(stt);
+//
+//        } catch (SQLException ex) {
+//            ex.printStackTrace();
+//        }
+//        return listObj;
+//    }
 
-    public static void insert(Gift gift) {
+    public void insert(Gift gift) {
         try (
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
                 Statement stmt = conn.createStatement();
@@ -72,24 +68,15 @@ public class GiftController {
         }
     }
 
-    public static void delete() {
+    public void delete(Gift gift) {
         try (
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
                 Statement stmt = conn.createStatement();
         ) {
-            System.out.println("Enter id of book you want to delete: ");
-            Scanner input = new Scanner(System.in);
-            int id = input.nextInt();
-            int i = 0;
-
-            for(i =0;i<listObj.size();i++){
-                if(listObj.get(i).getId()==id){
-                    listObj.remove(i);
-                }
-            }
-            String delete = "delete from books where id ="+id;
+            String delete = "delete from books where id ="+gift.getId();
             stmt.executeUpdate(delete);
-            System.out.printf("Deleted %d record(s)",i);
+            System.out.println("Deleted successfully");
+            listObj.removeIf(n->n.getId()== gift.getId());
         } catch (SQLException ex) {
             ex.printStackTrace();
         }

@@ -64,4 +64,8 @@ public class Gift {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%-30d%-30s%-30s%-30.2f%-30d\n",id,name,author,price,qty);
+    }
 }

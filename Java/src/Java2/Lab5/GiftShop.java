@@ -2,9 +2,10 @@ package Java2.Lab5;
 
 import java.util.Scanner;
 
-public class GiftShop extends GiftController {
+public class GiftShop {
     public static void main(String[] args) {
-        loading();
+        GiftController gif = new GiftController();
+        GiftShop giftt = new GiftShop();
         Scanner input = new Scanner(System.in);
         int choice;
         do {
@@ -15,15 +16,15 @@ public class GiftShop extends GiftController {
                     "4. Exit");
             System.out.println("Enter you choice: ");
             choice = input.nextInt();
-            switch (choice){
+            switch (choice) {
                 case 1:
-                    select();
+                    giftt.display();
                     break;
                 case 2:
-                    add();
+                    giftt.add();
                     break;
                 case 3:
-                    delete();
+                    giftt.deteled();
                     break;
                 case 4:
                     System.out.println("Thank you");
@@ -32,9 +33,10 @@ public class GiftShop extends GiftController {
                     System.out.println("Please enter valid choice");
                     break;
             }
-        }while(choice!=4);
+        } while (choice != 4);
     }
-    public static void add(){
+
+    public void add() {
         Scanner input = new Scanner(System.in);
         Gift obj = new Gift();
         System.out.println("Enter book id: ");
@@ -52,6 +54,25 @@ public class GiftShop extends GiftController {
         System.out.println("Enter quantity: ");
         int qty = input.nextInt();
         obj.setQty(qty);
-        insert(obj);
+        GiftController obj1 = new GiftController();
+        obj1.insert(obj);
+    }
+
+    public void deteled() {
+        System.out.println("Enter id of book you want to delete: ");
+        Gift obj = new Gift();
+        Scanner input = new Scanner(System.in);
+        int id = input.nextInt();
+        obj.setId(id);
+        GiftController obj1 = new GiftController();
+        obj1.delete(obj);
+    }
+    public void display(){
+        GiftController obj1 = new GiftController();
+        obj1.loading();
+        for(int i = 0 ;i< obj1.listObj.size();i++){
+            System.out.printf("\n%-30d%-30s%-30s%-30.2f%-30d",obj1.listObj.get(i).getId(),obj1.listObj.get(i).getName(),obj1.listObj.get(i).getAuthor(),obj1.listObj.get(i).getPrice(),obj1.listObj.get(i).getQty());
+        }
+        System.out.println();
     }
 }
