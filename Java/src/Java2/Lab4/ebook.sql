@@ -1,6 +1,14 @@
 drop database ebookstore;
 create database if not exists ebookstore;
 use ebookstore;
+create table users(
+    id int primary key not null auto_increment,
+    name varchar(50) unique,
+    password varchar(50),
+    role int check (role in (1,2)),
+    createddate date,
+    updateddate date
+);
 create table category(
     genre int PRIMARY KEY,
     nameCate varchar(50)
@@ -9,7 +17,7 @@ create table books(
     bookID int,
     title varchar(50),
     author varchar(50),
-    years date,
+    years int,
     genre int,
     status int check (status REGEXP '[1-3]{1}'),
     qty int,
@@ -20,14 +28,15 @@ create table books(
     CONSTRAINT fk_category FOREIGN KEY (genre) REFERENCES category(genre)
     );
 create table customers(
-    customerID int PRIMARY KEY,
+    customerID int,
     name varchar(50),
     address varchar(50),
     email varchar(50),
     phone varchar(10) check (phone REGEXP '[0-9]{10}'),
     member int check (member REGEXP '[1-4]{1}'),
     createddate datetime,
-    updateddate datetime
+    updateddate datetime,
+    CONSTRAINT fk_id FOREIGN KEY (customerId) REFERENCES users(id)
     );
 
 create table orders(
@@ -39,7 +48,7 @@ create table orders(
     status int check (status REGEXP '[0-5]{1}'),
     createddate date,
     updateddate date,
-    CONSTRAINT fk_customer FOREIGN KEY (customerID) REFERENCES customers(customerID)
+    CONSTRAINT fk_customer FOREIGN KEY (customerID) REFERENCES users(id)
     );
 
 create table orderdetail(
@@ -74,8 +83,21 @@ insert into books(bookid, title, author, years, genre, status, qty, price, creat
 (144,"Python","Nguyen Thi C",2017,1,2,14,27.4,"2020-11-02"),
 (155,"Don gian","Le Thi P",2016,2,2,12,15.6,"2020-11-02"),
 (166,"Tieng het","Nguyen Tien D",2013,3,2,24,10.2,"2020-11-02"),
-(177,"Nhat ky","Tran Van A",2014,1,2,27,20.2,"2020-11-02");
+(177,"Nhat ky","Tran Van A",2014,1,2,27,20.2,"2020-11-02"),
+(101,"Ong gia","Tran Van A",2000,1,2,1,12.3,"2020-11-02");
 
+insert into users(id, name, password, role, createddate) values
+(1001,"nguyenvana@gmail.com","0947329283",1,"2020-11-02"),
+(1002,"daovanb@gmail.com","0389274589432",2,"2020-11-02"),
+(1003,"nguyenthic@gmail.com","98347598347",1,"2020-11-02"),
+(1004,"hoangvane@gmail.com","094385903495034",1,"2020-11-02"),
+(1005,"dothid@gmail.com","871236578362578",2,"2020-11-02"),
+(1006,"chuthig@gmail.com","983754894379581",1,"2020-11-02"),
+(1007,"nguyentienh@gmail.com","9387459843789",1,"2020-11-02"),
+(1008,"duongxuanj@gmail.com","109237983738264875",1,"2020-11-02"),
+(1009,"dongocl@gmail.com","8473589437826",2,"2020-11-02"),
+(1010,"nguyenthip@gmail.com","9847359874389573",1,"2020-11-02"),
+(1011,"maitienq@gmail.com","78678463895789",2,"2020-11-02");
 insert into customers(customerID, name, address, email, phone, member, createddate) values
 (1001,"Duong Xuan Binh","Kim Giang","nguyenvana@gmail.com","0947329283",2,"2020-11-02"),
 (1002,"Nguyen Tien Dat","Van Phuc","nguyenvana@gmail.com","0947329283",3,"2020-11-02"),

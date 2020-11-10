@@ -39,21 +39,6 @@ public class GiftController {
         }
         return listObj;
     }
-    // select thong qua object
-//    public List<Gift> select() {
-//        try (
-//                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
-//                Statement stmt = conn.createStatement();
-//        ) {
-//            String stt = "Select * from books";
-//            ResultSet rset = stmt.executeQuery(stt);
-//
-//        } catch (SQLException ex) {
-//            ex.printStackTrace();
-//        }
-//        return listObj;
-//    }
-
     public void insert(Gift gift) {
         try (
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
