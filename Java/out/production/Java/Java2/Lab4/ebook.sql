@@ -40,7 +40,7 @@ create table customers(
     );
 
 create table orders(
-    orderID int PRIMARY KEY,
+    orderID int PRIMARY KEY auto_increment,
     customerID int,
     discount int,
     total decimal(10,1),
@@ -100,16 +100,16 @@ insert into users(id, name, password, role, createddate) values
 (1011,"maitienq@gmail.com","78678463895789",2,"2020-11-02");
 insert into customers(customerID, name, address, email, phone, member, createddate) values
 (1001,"Duong Xuan Binh","Kim Giang","nguyenvana@gmail.com","0947329283",2,"2020-11-02"),
-(1002,"Nguyen Tien Dat","Van Phuc","nguyenvana@gmail.com","0947329283",3,"2020-11-02"),
-(1003,"Duong Thuy Ngan","Bac Giang","nguyenvana@gmail.com","0947329283",4,"2020-11-02"),
-(1004,"Nguyan Van Hoang","Thai Nguyn","nguyenvana@gmail.com","0947329283",1,"2020-11-02"),
-(1005,"Hoang Tien Dung","Kim Giang","nguyenvana@gmail.com","0947329283",2,"2020-11-02"),
-(1006,"Nguyen Thi Quynh","Kim Giang","nguyenvana@gmail.com","0947329283",3,"2020-11-02"),
-(1007,"Nguyen Ngoc Tram","Gia Lam","nguyenvana@gmail.com","0947329283",4,"2020-11-02"),
-(1008,"Duong Xuan Ba","Bac Giang","nguyenvana@gmail.com","0947329283",3,"2020-11-02"),
-(1009,"Nguyen Thi Hang","Ha Noi","nguyenvana@gmail.com","0947329283",2,"2020-11-02"),
-(1010,"Ho Quang Huy","Thanh Tri","nguyenvana@gmail.com","0947329283",1,"2020-11-02"),
-(1011,"Nguyen Thai Son","Van Phuc","nguyenvana@gmail.com","0947329283",2,"2020-11-02");
+(1002,"Nguyen Tien Dat","Van Phuc","daovanb@gmail.com","0947329283",3,"2020-11-02"),
+(1003,"Duong Thuy Ngan","Bac Giang","nguyenthic@gmail.com","0947329283",4,"2020-11-02"),
+(1004,"Nguyan Van Hoang","Thai Nguyn","hoangvane@gmail.com","0947329283",1,"2020-11-02"),
+(1005,"Hoang Tien Dung","Kim Giang","dothid@gmail.com","0947329283",2,"2020-11-02"),
+(1006,"Nguyen Thi Quynh","Kim Giang","chuthig@gmail.com","0947329283",3,"2020-11-02"),
+(1007,"Nguyen Ngoc Tram","Gia Lam","nguyentienh@gmail.com","0947329283",4,"2020-11-02"),
+(1008,"Duong Xuan Ba","Bac Giang","duongxuanj@gmail.com","0947329283",3,"2020-11-02"),
+(1009,"Nguyen Thi Hang","Ha Noi","dongocl@gmail.com","0947329283",2,"2020-11-02"),
+(1010,"Ho Quang Huy","Thanh Tri","nguyenthip@gmail.com","0947329283",1,"2020-11-02"),
+(1011,"Nguyen Thai Son","Van Phuc","maitienq@gmail.com","0947329283",2,"2020-11-02");
 
 insert into orders(orderID, customerID, discount, total, orderdate, status,createddate) values
 (5001,1001,0,20.2,"2020-10-29",0,"2020-11-02"),

@@ -46,22 +46,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java2/Lab7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java2/Lab9" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab9" />
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab7" />
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Lab10\ex4" />
     </key>
@@ -78,52 +81,52 @@
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.view">
-    <configuration name="Ex2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab6.Ex2_1" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java2.Lab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab6.Ex2_2" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java2.Lab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex2_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab6.Ex2_3" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java2.Lab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.view (1)">
     <configuration name="Ex2_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java2.Lab6.Ex2_4" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java2.Lab6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcCommitCatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab8.JdbcCommitCatchTest" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java2.Lab8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab9.a" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java2.Lab9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="view (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab9.view" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java2.Lab9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,26 +147,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.view (1)" />
+        <item itemvalue="Application.a" />
         <item itemvalue="Application.view" />
+        <item itemvalue="Application.JdbcCommitCatchTest" />
         <item itemvalue="Application.Ex2_4" />
-        <item itemvalue="Application.Ex2_3" />
-        <item itemvalue="Application.Ex2_2" />
-        <item itemvalue="Application.Ex2_1" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +230,11 @@
       <workItem from="1604968043172" duration="8342000" />
       <workItem from="1604981491322" duration="10827000" />
       <workItem from="1604992432282" duration="3084000" />
+      <workItem from="1605056930411" duration="6307000" />
+      <workItem from="1605088793192" duration="11765000" />
+      <workItem from="1605143617509" duration="20234000" />
+      <workItem from="1605176298960" duration="4922000" />
+      <workItem from="1605194563726" duration="5107000" />
     </task>
     <servers />
   </component>
@@ -252,10 +258,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="396" y="85" key="#Inspections/0.0.1360.728@0.0.1360.728" timestamp="1602740433337" />
-    <state x="69" y="205" key="#SQL_Dialects" timestamp="1604988562126">
+    <state x="69" y="205" key="#SQL_Dialects" timestamp="1605066023450">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="69" y="205" key="#SQL_Dialects/0.0.1360.728@0.0.1360.728" timestamp="1604988562126" />
+    <state x="69" y="205" key="#SQL_Dialects/0.0.1360.728@0.0.1360.728" timestamp="1605066023450" />
     <state x="268" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603279328154">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -264,10 +270,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1604886019729" />
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1604985576117">
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1605154225966">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1604985576117" />
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1605154225966" />
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603428078081">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -284,46 +290,46 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="386" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1604199237244" />
-    <state width="1121" height="273" key="GridCell.Tab.0.bottom" timestamp="1604995539159">
+    <state width="1317" height="509" key="GridCell.Tab.0.bottom" timestamp="1605199475389">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1121" height="273" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1604995539159" />
-    <state width="1121" height="273" key="GridCell.Tab.0.center" timestamp="1604995539159">
+    <state width="1317" height="509" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605199475389" />
+    <state width="1317" height="509" key="GridCell.Tab.0.center" timestamp="1605199475389">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1121" height="273" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1604995539159" />
-    <state width="1121" height="273" key="GridCell.Tab.0.left" timestamp="1604995539159">
+    <state width="1317" height="509" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605199475389" />
+    <state width="1317" height="509" key="GridCell.Tab.0.left" timestamp="1605199475389">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1121" height="273" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1604995539159" />
-    <state width="1121" height="273" key="GridCell.Tab.0.right" timestamp="1604995539159">
+    <state width="1317" height="509" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605199475389" />
+    <state width="1317" height="509" key="GridCell.Tab.0.right" timestamp="1605199475389">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1121" height="273" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1604995539159" />
-    <state width="634" height="222" key="GridCell.Tab.1.bottom" timestamp="1603348756905">
+    <state width="1317" height="509" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605199475389" />
+    <state width="1317" height="222" key="GridCell.Tab.1.bottom" timestamp="1605196230161">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="222" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
-    <state width="634" height="222" key="GridCell.Tab.1.center" timestamp="1603348756905">
+    <state width="1317" height="222" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
+    <state width="1317" height="222" key="GridCell.Tab.1.center" timestamp="1605196230161">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="222" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
-    <state width="634" height="222" key="GridCell.Tab.1.left" timestamp="1603348756905">
+    <state width="1317" height="222" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
+    <state width="1317" height="222" key="GridCell.Tab.1.left" timestamp="1605196230161">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="222" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
-    <state width="634" height="222" key="GridCell.Tab.1.right" timestamp="1603348756905">
+    <state width="1317" height="222" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
+    <state width="1317" height="222" key="GridCell.Tab.1.right" timestamp="1605196230161">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="634" height="222" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1603348756905" />
-    <state x="160" y="0" key="SettingsEditor" timestamp="1604200419304">
+    <state width="1317" height="222" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1605176553923">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1604200419304" />
-    <state x="381" y="99" width="979" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604396200032">
+    <state x="160" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1605176553923" />
+    <state x="381" y="99" width="979" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605199306499">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="381" y="99" width="979" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1360.728@0.0.1360.728" timestamp="1604396200032" />
+    <state x="381" y="99" width="979" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1360.728@0.0.1360.728" timestamp="1605199306499" />
     <state x="568" y="115" width="698" height="488" key="dock-window-1" timestamp="1602155601129">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -336,25 +342,29 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="125" y="0" key="new project wizard/0.0.1360.728@0.0.1360.728" timestamp="1602815131282" />
-    <state x="676" y="166" key="run.anything.popup" timestamp="1604389726257">
+    <state x="676" y="166" key="run.anything.popup" timestamp="1605198330808">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="676" y="166" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1604389726257" />
-    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1604894889460">
+    <state x="676" y="166" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1605198330808" />
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1605176529152">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1604894889460" />
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1605176529152" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
+        <breakpoint type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
+        <breakpoint type="java-exception">
           <properties class="java.util.IllegalFormatConversionException" package="java.util" />
           <option name="timeStamp" value="8" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="30" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

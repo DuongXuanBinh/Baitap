@@ -1,9 +1,10 @@
-package Java2.Lab7;
+package Java2.Lab9;
 
 import Java.Lab9.B;
-import Java.Lab9.C;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class view {
@@ -16,6 +17,8 @@ public class view {
         System.out.println("============================================================");
         menu();
     }
+
+    //menu cho moi role
     public static void menu() {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -46,6 +49,7 @@ public class view {
             }
         } while (choice != 4);
     }
+
     public static void menuCustomer(User user) {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -73,6 +77,7 @@ public class view {
                 case 4:
                     BookController bookctrl = new BookController();
                     bookctrl.displayBook();
+                    addToCart(user);
                     break;
                 case 5:
                     findBookByCategory();
@@ -92,6 +97,7 @@ public class view {
             }
         } while (choice != 8);
     }
+
     public static void menuAdmin(User user) {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -121,25 +127,41 @@ public class view {
             }
         } while (choice != 4);
     }
+
     private static void menuVisit() {
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
             System.out.println(
                     "1. Display books in store\n" +
-                    "2. Find book by category\n" +
-                    "3. Find book by Author\n" +
-                    "4. Find book by Category\n" +
+                            "2. Find book by category\n" +
+                            "3. Find book by Author\n" +
+                            "4. Find book by Category\n" +
                             "5. Top 10 newest books\n" +
-                            "6. Top seller" +
-                    "7. Exit");
+                            "6. Top seller\n" +
+                            "7. Back");
             System.out.println("Your choice:");
-            choice = scanner.nextInt();
+            choice = Integer.parseInt(scanner.nextLine());
             switch (choice) {
                 case 1:
                     BookController bookctrl = new BookController();
                     bookctrl.displayBook();
-                    break;
+                    Register reg = new Register();
+                    System.out.println("Do you want to buy some book? (y/n)");
+                    String x = scanner.nextLine();
+                    if(x.equals("y")){
+                        System.out.println("Sign in(enter 1) or sign up(enter 2) to buy!");
+                        int y = Integer.parseInt(scanner.nextLine());
+                        if (y == 1){
+                            User news = reg.signIn();
+                            checkUser(news);
+                            break;
+                        }else if(y==2){
+                            createAccount();
+                            break;
+                        }
+                    }else
+                        break;
                 case 2:
                     findBookByCategory();
                     break;
@@ -165,6 +187,8 @@ public class view {
         } while (choice != 8);
 
     }
+
+    //hien thi thong tin,tim sach
     public static void top10newest() {
         try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
              Statement stmt = conn.createStatement()) {
@@ -190,6 +214,7 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void topSeller() {
         try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
              Statement stmt = conn.createStatement()) {
@@ -217,6 +242,7 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void orderDetail() {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -270,6 +296,7 @@ public class view {
             }
         } while (choice != 0);
     }
+
     public static void findBookByCategory() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the category: (1-Fiction,2-Science,3-Literature)");
@@ -297,6 +324,7 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void findBookByAuthor() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter author's name:");
@@ -324,6 +352,7 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void findBookByID() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter book's ID:");
@@ -351,6 +380,8 @@ public class view {
             ex.printStackTrace();
         }
     }
+
+    //tim order
     public static void displayOrderByStatus(int stt) {
         try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
              Statement stmt = conn.createStatement()) {
@@ -399,6 +430,7 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void displayOrderByCustomerID() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter customer ID: ");
@@ -424,6 +456,7 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void displayOrderByOrderID() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Order ID: ");
@@ -475,6 +508,7 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void OrderDetailByOrderID() {
         System.out.println("Enter Order ID: ");
         Scanner scanner = new Scanner(System.in);
@@ -499,14 +533,16 @@ public class view {
             ex.printStackTrace();
         }
     }
+
     public static void checkUser(User user) {
         int y = user.getRole();
-        if(y==1){
+        if (y == 1) {
             menuCustomer(user);
-        }else if(y==2){
+        } else if (y == 2) {
             menuAdmin(user);
         }
     }
+
     public static void createAccount() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your account:");
@@ -515,11 +551,12 @@ public class view {
         String password = input.nextLine();
         System.out.println("Enter your role: (1-customer, 2-admin)");
         int role = Integer.parseInt(input.nextLine());
-        User obj = new User(name,password,role);
+        User obj = new User(name, password, role);
         Register signUp = new Register();
         signUp.signUp(obj);
         menu();
     }
+
     public static void bookManagement(User user) {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -571,6 +608,7 @@ public class view {
             }
         } while (choice != 9);
     }
+
     public static void customerManagement(User user) {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -579,7 +617,7 @@ public class view {
                     "2. Update customer \n" +
                     "3. Delete customer\n" +
                     "4. Display all Customers\n" +
-                            "5. Display all Users\n"+
+                    "5. Display all Users\n" +
                     "6. Back");
             System.out.println("Your choice:");
             choice = scanner.nextInt();
@@ -610,7 +648,9 @@ public class view {
             }
         } while (choice != 6);
     }
-    public static void addCus(){
+
+    //update thong tin bang cua admin
+    public static void addCus() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter customer ID:");
         int id = Integer.parseInt(input.nextLine());
@@ -624,11 +664,12 @@ public class view {
         String phone = input.nextLine();
         System.out.println("Enter type of member:(1-Diamond,2-Gold,3-Silver,4-New)");
         int member = Integer.parseInt(input.nextLine());
-        Customer obj = new Customer(id,name,address,email,phone,member);
+        Customer obj = new Customer(id, name, address, email, phone, member);
         CustomerController ctrl = new CustomerController();
         ctrl.insertCustomer(obj);
     }
-    public static void updateCus(){
+
+    public static void updateCus() {
         Customer obj = new Customer();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the customer id you want to update:");
@@ -644,13 +685,14 @@ public class view {
         obj.setEmail(email);
         obj.setPhone(phone);
         CustomerController ctr = new CustomerController();
-        if(ctr.updateCustomer(obj)==0){
+        if (ctr.updateCustomer(obj) == 0) {
             System.out.println("No customer found");
-        }else if(ctr.updateCustomer(obj)==1){
+        } else if (ctr.updateCustomer(obj) == 1) {
             System.out.println("Customer has been updated");
         }
     }
-    public static void deleteCus(){
+
+    public static void deleteCus() {
         Customer obj = new Customer();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the customer id you want to delete:");
@@ -659,7 +701,8 @@ public class view {
         CustomerController ctr = new CustomerController();
         ctr.deleteCustomer(obj);
     }
-    public static void addBk(){
+
+    public static void addBk() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Book ID:");
         int id = Integer.parseInt(input.nextLine());
@@ -671,11 +714,12 @@ public class view {
         int qty = Integer.parseInt(input.nextLine());
         System.out.println("Enter book price: ");
         double price = input.nextDouble();
-        Book obj = new Book(id,title,author,price,qty);
+        Book obj = new Book(id, title, author, price, qty);
         BookController ctrl = new BookController();
         ctrl.insertBook(obj);
     }
-    public static void updateBk(){
+
+    public static void updateBk() {
         Book obj = new Book();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the book id you want to update:");
@@ -689,13 +733,15 @@ public class view {
         obj.setPrice(price);
         obj.setQty(qty);
         BookController ctr = new BookController();
-        if(ctr.updateBook(obj)==0){
+        if (ctr.updateBook(obj) == 0) {
             System.out.println("Wrong book's information");
-        }else if(ctr.updateBook(obj)==1){
+        } else if (ctr.updateBook(obj) == 1) {
             System.out.println("Book has been updated");
-        };
+        }
+        ;
     }
-    public static void deleteBk(){
+
+    public static void deleteBk() {
         Book obj = new Book();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the customer id you want to delete:");
@@ -704,18 +750,20 @@ public class view {
         BookController ctr = new BookController();
         ctr.deleteBook(obj);
     }
-    public static void cusInfor(User user){
+
+    public static void cusInfor(User user) {
         int x = user.getId();
         CustomerController cus = new CustomerController();
         cus.display1Customer(x);
     }
-    public static void cusOrder(User user){
+
+    public static void cusOrder(User user) {
         try (
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
                 Statement stmt = conn.createStatement();
         ) {
             int x = user.getId();
-            String select = "Select * from orders where customerID = "+x;
+            String select = "Select * from orders where customerID = " + x;
             ResultSet rset = stmt.executeQuery(select);
             ResultSetMetaData rsetMD = rset.getMetaData();
             int numColumns = rsetMD.getColumnCount();
@@ -723,24 +771,25 @@ public class view {
                 System.out.printf("%-30s", rsetMD.getColumnName(i));
             }
             System.out.println();
-            while (rset.next()){
-                for(int i=1;i<=numColumns;i++){
-                    System.out.printf("%-30s",rset.getString(i));
+            while (rset.next()) {
+                for (int i = 1; i <= numColumns; i++) {
+                    System.out.printf("%-30s", rset.getString(i));
                 }
                 System.out.println();
             }
-        }catch (SQLException ex) {
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }
-    public static void cusOrderDetail(User user){
+
+    public static void cusOrderDetail(User user) {
         try (
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
                 Statement stmt = conn.createStatement();
         ) {
             int x = user.getId();
             String select = "Select orderdetail.orderID,bookID,title,amount,price,orders.orderdate,orders.status  from orderdetail inner join orders on orderdetail.orderID = orders.orderID" +
-                    " inner join customers on customers.customerID = orders.customerID where customers.customerID = "+x;
+                    " inner join customers on customers.customerID = orders.customerID where customers.customerID = " + x;
             ResultSet rset = stmt.executeQuery(select);
             ResultSetMetaData rsetMD = rset.getMetaData();
             int numColumns = rsetMD.getColumnCount();
@@ -748,13 +797,142 @@ public class view {
                 System.out.printf("%-30s", rsetMD.getColumnName(i));
             }
             System.out.println();
-            while (rset.next()){
-                for(int i=1;i<=numColumns;i++){
-                    System.out.printf("%-30s",rset.getString(i));
+            while (rset.next()) {
+                for (int i = 1; i <= numColumns; i++) {
+                    System.out.printf("%-30s", rset.getString(i));
                 }
                 System.out.println();
             }
-        }catch (SQLException ex) {
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    //gio hang
+    public static List<Cart> addToCart(User user) {
+        List<Cart> items = new ArrayList<>();
+        Book book = new Book();
+        Scanner scanner = new Scanner(System.in);
+        char choice = 0;
+        do {
+            System.out.println("Proceed/Continue purchasing book? (Y/N)");
+            choice = scanner.nextLine().charAt(0);
+            switch (choice) {
+                case 'y':
+                    System.out.println("Enter book ID you want to buy: ");
+                    int id = Integer.parseInt(scanner.nextLine());
+                    book.setBookID(id);
+                    System.out.println("Enter amount you want to buy: ");
+                    int qty = Integer.parseInt(scanner.nextLine());
+                    book.setQty(qty);
+                    CartController obj = new CartController();
+                    Cart item = obj.getItem(book);
+                    items.add(item);
+                    System.out.println(item);
+                    break;
+                case 'n':
+                    if (items.size() == 0) {
+                        System.out.println("Thank you");
+                    }else {
+                        do {
+                            System.out.println("Go to checkout? (Y/N):");
+                            choice = scanner.nextLine().charAt(0);
+                            switch (choice) {
+                                case 'y':
+                                    previewOrder(items,user);
+                                    break;
+                                case 'n':
+                                    System.out.println("Thanks!");
+                                    break;
+                                default:
+                                    System.out.println("Invalid choice");
+                                    break;
+                            }
+                        } while (choice == 'n'||choice == 'y');
+                    }
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+                    break;
+            }
+        } while (choice != 'n');
+        return items;
+    }
+
+//    public static void checkoutS() {
+//        Register reg = new Register();
+//        User user = reg.signIn();
+//
+//    }
+
+    public static Checkout checkout(List<Cart> list,User user) {
+        Scanner scanner = new Scanner(System.in);
+        CustomerController cusCtrl = new CustomerController();
+        int check = 0;
+        String email = null;
+        do {
+            System.out.println("Enter your email:");
+            email = scanner.nextLine();
+            check = cusCtrl.checkEmail(email);
+        }while(check!=0);
+
+        System.out.println("Choose payment method:\n" +
+                "1. COD\n" +
+                "2. Visa Master/Visa Credit");
+        int x = Integer.parseInt(scanner.nextLine());
+        String payment = null;
+        if(x==1){
+            payment = "COD";
+        }else if(x==2){
+            payment = "Visa Master/Visa Credit";
+        }
+        System.out.println("Enter your address: ");
+        String address = scanner.nextLine();
+        BookController ctr = new BookController();
+        ctr.afterPurchase(list,user);
+        Checkout checks = new Checkout(user,email,payment,address);
+        return checks;
+    }
+    public static void previewOrder(List<Cart> list,User user){
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
+             Statement stmt = conn.createStatement()) {
+            Checkout checks = checkout(list,user);
+            System.out.println("Confirm you order:");
+            System.out.printf("%-30s%-30s%-30s%-30s\n","ID","Email","Payment","Address");
+            System.out.println(checks);
+            System.out.println("============================================================================================");
+            slt = "Select * from orders where customerID =" +user.getId() +" AND orderdate = CURRENT_DATE()";
+            rst = stmt.executeQuery(slt);
+            ResultSetMetaData rset = rst.getMetaData();
+            int column = rset.getColumnCount();
+            for(int i=1;i<=column;i++){
+                System.out.printf("%-30s",rset.getColumnName(i));
+            }
+            System.out.println();
+            while(rst.next()){
+            for(int i=1;i<=column;i++){
+                System.out.printf("%-30s",rst.getString(i));
+            }
+                System.out.println();}
+            System.out.println("**Status: 0-Canceled, 1-Confirmed, 2-Pending,3-Ready,4-Delivering,5-Delivered");
+            System.out.println("============================================================================================");
+
+            slt = "Select orderdetail.orderID,bookID,title,amount,price,orderdetail.createddate,orderdetail.updateddate from orderdetail inner join orders on orderdetail.orderID = orders.orderID where orders.customerID =" + user.getId()+" AND orderdate = CURRENT_DATE()";
+            rst = stmt.executeQuery(slt);
+            rset = rst.getMetaData();
+            column = rset.getColumnCount();
+            for(int i=1;i<=column;i++){
+                System.out.printf("%-30s",rset.getColumnName(i));
+            }
+            System.out.println();
+            while(rst.next()) {
+                for (int i = 1; i <= column; i++) {
+                    System.out.printf("%-30s", rst.getString(i));
+                }
+                System.out.println();
+            }
+            menuCustomer(user);
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }
