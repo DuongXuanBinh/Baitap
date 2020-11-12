@@ -15,12 +15,15 @@ public class CartController {
             ResultSet rset = stmt.executeQuery(select);
             System.out.printf("%-30s%-30s%-30s%-30s%-30s","bookID","title","price","qty","discount");
             System.out.println();
-            while(rset.next()){
-                int id = rset.getInt("bookID");
-                String title= rset.getString("title");
-                double price = rset.getDouble("price");
-                obj = new Cart(id,title,price,book.getQty());
+            int row = 0;
+            while (rset.next()) {
+                    int id = rset.getInt("bookID");
+                    String title = rset.getString("title");
+                    double price = rset.getDouble("price");
+                    obj = new Cart(id, title, price, book.getQty());
+                    row++;
             }
+
         }catch (SQLException ex) {
             ex.printStackTrace();
         }

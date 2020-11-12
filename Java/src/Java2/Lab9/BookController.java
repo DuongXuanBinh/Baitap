@@ -125,10 +125,8 @@ public class BookController {
             stmt.executeUpdate(insert);
             OrderController ctrl = new OrderController();
             List<Order> orderList=ctrl.loading();
-            int orderID = 0;
-            for(int i = orderList.size();i<=orderList.size();){
-                orderID=orderList.get(i).getOrderID();
-            }
+            int j = orderList.size()-1;
+            int orderID=orderList.get(j).getOrderID();
             for(int i = 0;i<list.size();i++){
                 String update = "update books set qty = qty -"+list.get(i).getQty()+" where bookID = "+list.get(i).getBookID();
                 stmt.executeUpdate(update);
@@ -137,6 +135,7 @@ public class BookController {
             }
             conn.commit();
         } catch (SQLException ex) {
+            System.out.println("Failed! Please try again");
             ex.printStackTrace();
         }
     }

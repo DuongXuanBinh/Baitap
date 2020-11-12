@@ -61,7 +61,7 @@ public class view {
                     "5. Find book by category\n" +
                     "6. Find book by Author\n" +
                     "7. Find book by Category\n" +
-                    "8. Exit");
+                    "8. Back");
             System.out.println("Your choice:");
             choice = scanner.nextInt();
             switch (choice) {
@@ -152,10 +152,16 @@ public class view {
                     if(x.equals("y")){
                         System.out.println("Sign in(enter 1) or sign up(enter 2) to buy!");
                         int y = Integer.parseInt(scanner.nextLine());
-                        if (y == 1){
+                        if (y == 1) {
                             User news = reg.signIn();
-                            checkUser(news);
-                            break;
+                            if (news.getRole() == 1) {
+                                bookctrl.displayBook();
+                                addToCart(news);
+                                break;
+                            } else{
+                                System.out.println("Cannot buy by admin account!");
+                                break;
+                            }
                         }else if(y==2){
                             createAccount();
                             break;
@@ -534,13 +540,16 @@ public class view {
         }
     }
 
-    public static void checkUser(User user) {
+    public static int checkUser(User user) {
         int y = user.getRole();
         if (y == 1) {
             menuCustomer(user);
+            return 1;
         } else if (y == 2) {
             menuAdmin(user);
+            return 2;
         }
+        return 0;
     }
 
     public static void createAccount() {
