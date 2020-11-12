@@ -836,9 +836,13 @@ public class view {
                     book.setQty(qty);
                     CartController obj = new CartController();
                     Cart item = obj.getItem(book);
+                    if(item==null){
+                        break;
+                    }
+                    else{
                     items.add(item);
                     System.out.println(item);
-                    break;
+                    break;}
                 case 'n':
                     if (items.size() == 0) {
                         System.out.println("Thank you");
@@ -926,7 +930,7 @@ public class view {
             System.out.println("**Status: 0-Canceled, 1-Confirmed, 2-Pending,3-Ready,4-Delivering,5-Delivered");
             System.out.println("============================================================================================");
 
-            slt = "Select orderdetail.orderID,bookID,title,amount,price,orderdetail.createddate,orderdetail.updateddate from orderdetail inner join orders on orderdetail.orderID = orders.orderID where orders.customerID =" + user.getId()+" AND orderdate = CURRENT_DATE()";
+            slt = "Select orderdetail.orderID,bookID,title,amount,price,orderdetail.createddate,orderdetail.updateddate from orderdetail inner join orders on orderdetail.orderID = orders.orderID where orders.customerID =" + user.getId()+" AND orders.orderdate = CURRENT_DATE()";
             rst = stmt.executeQuery(slt);
             rset = rst.getMetaData();
             column = rset.getColumnCount();

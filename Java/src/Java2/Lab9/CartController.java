@@ -16,13 +16,21 @@ public class CartController {
             System.out.printf("%-30s%-30s%-30s%-30s%-30s","bookID","title","price","qty","discount");
             System.out.println();
             int row = 0;
+            int id = 0;
+            String title = null;
+            double price = 0;
             while (rset.next()) {
-                    int id = rset.getInt("bookID");
-                    String title = rset.getString("title");
-                    double price = rset.getDouble("price");
-                    obj = new Cart(id, title, price, book.getQty());
+                    id = rset.getInt("bookID");
+                    title = rset.getString("title");
+                    price = rset.getDouble("price");
+                    
                     row++;
             }
+            if(row==0){
+                System.out.println("No book with entered ID");
+                return null;
+            }else
+                obj = new Cart(id, title, price, book.getQty());
 
         }catch (SQLException ex) {
             ex.printStackTrace();
