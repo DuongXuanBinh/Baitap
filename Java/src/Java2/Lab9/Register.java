@@ -35,7 +35,7 @@ public class Register {
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
                 Statement stmt = conn.createStatement();
         ) {
-            String signup = "insert into users(name,password,role,createddate) values('" + user.getUsername() + "','" + user.getPassword() + "'," + user.getRole() + ",'" + user.getCreate() + "',curdate())";
+            String signup = "insert into users(name,password,role,createddate) values('" + user.getUsername() + "','" + user.getPassword() + "'," + user.getRole() + "," + "CURRENT_DATE())";
 
             stmt.executeUpdate(signup);
             loading();

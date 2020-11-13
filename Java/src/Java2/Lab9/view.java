@@ -872,11 +872,6 @@ public class view {
         return items;
     }
 
-//    public static void checkoutS() {
-//        Register reg = new Register();
-//        User user = reg.signIn();
-//
-//    }
 
     public static Checkout checkout(List<Cart> list,User user) {
         Scanner scanner = new Scanner(System.in);
