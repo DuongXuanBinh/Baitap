@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java2/Lab9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java2/Lab9/Self" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,13 +60,13 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab4" />
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src" />
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Java" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab9" />
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab7" />
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Lab10\ex4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Java2.Lab7" />
@@ -75,32 +75,20 @@
       <recent name="Lab8" />
       <recent name="Session8" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab4" />
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src" />
-      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\out\production" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab9\Self" />
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab9" />
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Java2\Lab7" />
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\Java\src\Lab10\ex4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.view (1)">
-    <configuration name="Ex2_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab6.Ex2_4" />
+  <component name="RunManager" selected="Application.BookShop">
+    <configuration name="BookShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab9.Answer.View.BookShop" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java2.Lab6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcCommitCatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab8.JdbcCommitCatchTest" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java2.Lab8.*" />
+          <option name="PATTERN" value="Java2.Lab9.Answer.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +110,11 @@
       </method>
     </configuration>
     <configuration name="view (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java2.Lab9.view" />
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab9.Self.view" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java2.Lab9.*" />
+          <option name="PATTERN" value="Java2.Lab9.Self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,24 +135,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="view" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java2.Lab9.view" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java2.Lab9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ebook.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/Java2/Lab9/ebook.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookShop" />
         <item itemvalue="Application.view (1)" />
+        <item itemvalue="Application.view (1)" />
+        <item itemvalue="Database Script.ebook.sql" />
         <item itemvalue="Application.a" />
-        <item itemvalue="Application.view" />
-        <item itemvalue="Application.JdbcCommitCatchTest" />
-        <item itemvalue="Application.Ex2_4" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +244,10 @@
       <workItem from="1605176298960" duration="4922000" />
       <workItem from="1605194563726" duration="7901000" />
       <workItem from="1605202580798" duration="825000" />
-      <workItem from="1605229129492" duration="836000" />
+      <workItem from="1605229129492" duration="11249000" />
+      <workItem from="1605322923421" duration="1176000" />
+      <workItem from="1605336978671" duration="13802000" />
+      <workItem from="1605407432265" duration="19097000" />
     </task>
     <servers />
   </component>
@@ -272,10 +283,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1604886019729" />
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1605154225966">
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1605423270679">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1605154225966" />
+    <state x="442" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1605423270679" />
     <state x="593" y="270" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603428078081">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -292,38 +303,38 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="386" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1604199237244" />
-    <state width="1317" height="227" key="GridCell.Tab.0.bottom" timestamp="1605203412437">
+    <state width="1317" height="248" key="GridCell.Tab.0.bottom" timestamp="1605429726206">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="227" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605203412437" />
-    <state width="1317" height="227" key="GridCell.Tab.0.center" timestamp="1605203412437">
+    <state width="1317" height="248" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605429726206" />
+    <state width="1317" height="248" key="GridCell.Tab.0.center" timestamp="1605429726206">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="227" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605203412437" />
-    <state width="1317" height="227" key="GridCell.Tab.0.left" timestamp="1605203412437">
+    <state width="1317" height="248" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605429726206" />
+    <state width="1317" height="248" key="GridCell.Tab.0.left" timestamp="1605429726206">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="227" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605203412437" />
-    <state width="1317" height="227" key="GridCell.Tab.0.right" timestamp="1605203412437">
+    <state width="1317" height="248" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605429726206" />
+    <state width="1317" height="248" key="GridCell.Tab.0.right" timestamp="1605429726206">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="227" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605203412437" />
-    <state width="1317" height="222" key="GridCell.Tab.1.bottom" timestamp="1605196230161">
+    <state width="1317" height="248" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605429726206" />
+    <state width="1317" height="243" key="GridCell.Tab.1.bottom" timestamp="1605429724970">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="222" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
-    <state width="1317" height="222" key="GridCell.Tab.1.center" timestamp="1605196230161">
+    <state width="1317" height="243" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605429724970" />
+    <state width="1317" height="243" key="GridCell.Tab.1.center" timestamp="1605429724969">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="222" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
-    <state width="1317" height="222" key="GridCell.Tab.1.left" timestamp="1605196230161">
+    <state width="1317" height="243" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1605429724969" />
+    <state width="1317" height="243" key="GridCell.Tab.1.left" timestamp="1605429724969">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="222" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
-    <state width="1317" height="222" key="GridCell.Tab.1.right" timestamp="1605196230161">
+    <state width="1317" height="243" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1605429724969" />
+    <state width="1317" height="243" key="GridCell.Tab.1.right" timestamp="1605429724970">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="222" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1605196230161" />
+    <state width="1317" height="243" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1605429724970" />
     <state x="160" y="0" key="SettingsEditor" timestamp="1605176553923">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -340,6 +351,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="410" y="125" key="extract.method.dialog/0.0.1360.728@0.0.1360.728" timestamp="1603100752877" />
+    <state x="35" y="0" width="585" height="728" key="find.popup" timestamp="1605348630274">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="35" y="0" width="585" height="728" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1605348630274" />
     <state x="125" y="0" key="new project wizard" timestamp="1602815131282">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -348,10 +363,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="676" y="166" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1605198330808" />
-    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1605176529152">
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1605348594135">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1605176529152" />
+    <state x="225" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1605348594135" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,6 +383,14 @@
           <properties class="java.sql.SQLException" package="java.sql" />
           <option name="timeStamp" value="30" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Java2/Lab9/Self/view.java</url>
+          <line>437</line>
+          <properties class="Java2.Lab9.Self.view" method="displayOrderByCustomerID">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
