@@ -3,6 +3,7 @@ package Java2.Lab9.Answer.View;
 import Java2.Lab9.Answer.Controllers.*;
 import Java2.Lab9.Answer.Models.User;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Scanner;
 
 public class BookShop {
@@ -10,7 +11,7 @@ public class BookShop {
     public static ResultSet rst;
     Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         BookShop bookShop1 = new BookShop();
         System.out.println("Welcome to E-bookstore!!!");
         System.out.println("============================================================");
@@ -18,7 +19,7 @@ public class BookShop {
     }
 
     //menu cho moi role
-    public void menuUser() {
+    public void menuUser(){
         BookView bookView = new BookView();
         CartView cartView = new CartView();
         CustomerView customerView = new CustomerView();
@@ -56,7 +57,7 @@ public class BookShop {
         } while (choice != 4);
     }
 
-    public void menuCustomer(User user) {
+    public void menuCustomer(User user){
         BookView bookView = new BookView();
         CartView cartView = new CartView();
         CustomerView customerView = new CustomerView();
@@ -109,7 +110,7 @@ public class BookShop {
         } while (choice != 8);
     }
 
-    public void menuAdmin(User user) {
+    public void menuAdmin(User user){
         BookView bookView = new BookView();
         CartView cartView = new CartView();
         CustomerView customerView = new CustomerView();
@@ -145,7 +146,7 @@ public class BookShop {
         } while (choice != 4);
     }
 
-    private void menuVisit() {
+    private void menuVisit(){
         CartView cartView = new CartView();
         BookShop bookShop = new BookShop();
         BookView bookView = new BookView();

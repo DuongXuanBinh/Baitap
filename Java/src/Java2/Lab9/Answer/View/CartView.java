@@ -19,7 +19,7 @@ public class CartView {
     String password = "";
 
 
-    public List<Cart> addToCart() {
+    public List<Cart> addToCart(){
         List<Cart> items = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         BookController bookCtr= new BookController();

@@ -202,7 +202,7 @@ public class BookView {
         }
     }
 
-    public  void bookManagement(User user) {
+    public  void bookManagement(User user){
         int choice;
         BookShop bookShop= new BookShop();
         OrderView orderView = new OrderView();
@@ -246,7 +246,6 @@ public class BookView {
                     ctr.displayBook();
                     break;
                 case 9:
-
                     bookShop.menuAdmin(user);
                     break;
                 default:

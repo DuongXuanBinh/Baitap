@@ -14,7 +14,7 @@ public class CustomerView {
     public  ResultSet rst;
 
 
-    public  void customerManagement(User user) {
+    public  void customerManagement(User user){
         int choice;
         BookShop bookShop = new BookShop();
         do {

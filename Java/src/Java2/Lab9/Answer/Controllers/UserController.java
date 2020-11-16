@@ -35,20 +35,6 @@ public class UserController {
         return userlist;
     }
 
-    public boolean signUp(User user) {
-        try (
-                Connection conn = DriverManager.getConnection(url,username,password);
-                Statement stmt = conn.createStatement();
-        ) {
-            String signup = "insert into users(name,password,role,createddate) values('" + user.getUsername() + "','" + user.getPassword() + "'," + user.getRole() + ",CURRENT_DATE())";
-            stmt.executeUpdate(signup);
-            loading();
-            return true;
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-            return false;
-        }
-    }
 
     public User signIn() {
         User obj = new User();
