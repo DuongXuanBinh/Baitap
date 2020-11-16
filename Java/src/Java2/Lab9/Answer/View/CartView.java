@@ -28,6 +28,7 @@ public class CartView {
         int id = 0;
         int qty;
         int sum =0;
+        int y = 0;
         do {
             System.out.println("Proceed/Continue purchasing book? (Y/N)");
             choice = scanner.nextLine().charAt(0);
@@ -85,7 +86,7 @@ public class CartView {
                                                 }while (userSI==null);
                                                 if(userSI.getRole() == 1)
                                                 {
-                                                previewOrder(items, userSI);}
+                                                y = previewOrder(items, userSI);}
                                                 else if(userSI.getRole() == 2){
                                                     System.out.println("You cannot buy by this account");
                                                     checkout = 3;
@@ -94,7 +95,7 @@ public class CartView {
                                             case 2:
                                                 UserView ctr = new UserView();
                                                 userSI = ctr.createAccount();
-                                                previewOrder(items, userSI);
+                                                y = previewOrder(items, userSI);
                                                 break;
                                                 default:
                                                     System.out.println("Invalid choice");
@@ -108,7 +109,7 @@ public class CartView {
                                     System.out.println("Invalid choice");
                                     break;
                             }
-                        } while (choice != 'n');
+                        } while (choice != 'n'&& y==-1);
                     }
                     break;
                 default:
@@ -152,7 +153,7 @@ public class CartView {
         return checks;
     }
 
-    public void previewOrder(List<Cart> list, User user) {
+    public int previewOrder(List<Cart> list, User user) {
         try (Connection conn = DriverManager.getConnection(url, username, password);
              Statement stmt = conn.createStatement()) {
             Checkout checks = checkout(user);
@@ -165,6 +166,7 @@ public class CartView {
             for(int i =0;i<list.size();i++) {
                 System.out.print(list.get(i));
             }
+            int x=0;
             char choice;
             do {
                 Scanner scanner = new Scanner(System.in);
@@ -175,7 +177,6 @@ public class CartView {
                         CartController ctr = new CartController();
                         boolean check = ctr.afterPurchase(list, user);
                         if (check) {
-
                             OrderController ord = new OrderController();
                             ord.displayOrder(user);
                             OrderDetailController ordd= new OrderDetailController();
@@ -186,17 +187,20 @@ public class CartView {
                         } else {
                             addToCart();
                         }
-                        break;
+                        return x = 1;
                     case 'n':
                         System.out.println("We would like to serve you next time");
-                        break;
+                        BookShop book = new BookShop();
+                        book.menuUser();
+                        return x = 0;
                     default:
                         System.out.println("Invalid choice");
-                        break;
+                        return x = -1;
                 }
-            }while (choice !='n'&& choice !='y');
+            }while (x==-1);
         } catch (SQLException ex) {
             ex.printStackTrace();
+            return -1;
         }
     }
     public List<Cart> addToCart(User user) {
