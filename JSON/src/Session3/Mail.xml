@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE Mail[
+        <!ELEMENT Mail (To, From, Date, Time, Cc, Bcc, Subject, Message, Signature)>
+        <!ELEMENT To (#PCDATA)>
+        <!ELEMENT From (#PCDATA)>
+        <!ELEMENT Date (#PCDATA)>
+        <!ELEMENT Time (#PCDATA)>
+        <!ELEMENT Cc (#PCDATA)>
+        <!ELEMENT Bcc (#PCDATA)>
+        <!ELEMENT Subject (#PCDATA)>
+        <!ELEMENT Message (#PCDATA)>
+        <!ELEMENT Signature (#PCDATA)>
+        ]>
+<Mail>
+    <To>anne@xyz.com</To>
+    <From>bob@xyz.com</From>
+    <Date>27th February 2007</Date>
+    <Time>11:30 am</Time>
+    <Cc />
+    <Bcc />
+    <Subject>Meeting at Main Conference Room at 4:30pm </Subject>
+    <Message>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis delectus distinctio doloremque dolorum eius error, ex harum in iusto neque officia possimus provident quis ratione ullam, vel voluptates, voluptatum?</Message>
+    <Signature />
+</Mail>
