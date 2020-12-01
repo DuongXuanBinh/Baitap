@@ -39,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/src/Java2/Practice/main.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Session6" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,18 +48,24 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\JSON\src\Session6" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\JSON\src\Session4" />
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\JSON\src\Session1" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,7 +86,12 @@
       <workItem from="1606615347506" duration="2920000" />
       <workItem from="1606626874961" duration="11214000" />
       <workItem from="1606643728984" duration="2084000" />
-      <workItem from="1606699696512" duration="533000" />
+      <workItem from="1606699696512" duration="4788000" />
+      <workItem from="1606732247093" duration="4765000" />
+      <workItem from="1606751532549" duration="3615000" />
+      <workItem from="1606786234398" duration="6991000" />
+      <workItem from="1606804752950" duration="5704000" />
+      <workItem from="1606831784008" duration="270000" />
     </task>
     <servers />
   </component>

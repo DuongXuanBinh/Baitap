@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="state.xsl"?>
+<states>
+    <state>
+        <name>California</name>
+        <population>3476587 people</population>
+        <capital>Sacramento</capital>
+        <bird>Quail</bird>
+        <flower>Golden Poppy</flower>
+        <area>155959 square miles</area>
+    </state>
+    <state>
+        <name>Massachusetts</name>
+        <population>5874345 people</population>
+        <capital>Boston</capital>
+        <bird>Chickadee</bird>
+        <flower>Mayflower</flower>
+        <area>7840 square miles</area>
+    </state>
+    <state>
+        <name>New York</name>
+        <population>18975498 people</population>
+        <capital>Albany</capital>
+        <bird>Bluebird</bird>
+        <flower>Rose</flower>
+        <area>478213 square miles</area>
+    </state>
+</states>
