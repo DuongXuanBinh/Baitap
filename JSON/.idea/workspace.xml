@@ -70,13 +70,39 @@
       <recent name="C:\Users\User\Desktop\Aptech\GitHub\Baitap\JSON\src\Session6" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.widget">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4.Main" />
       <module name="JSON" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="menu1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab5.menu1" />
+      <module name="JSON" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="widget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab5.widget" />
+      <module name="JSON" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.widget" />
+        <item itemvalue="Application.menu1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -126,6 +154,8 @@
       <workItem from="1606831784008" duration="270000" />
       <workItem from="1606871868941" duration="6262000" />
       <workItem from="1606916641802" duration="3467000" />
+      <workItem from="1607045895767" duration="10237000" />
+      <workItem from="1607087700246" duration="2302000" />
     </task>
     <servers />
   </component>
@@ -145,31 +175,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="800" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606920016544">
+    <state x="800" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607045932933">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="800" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1606920016544" />
+    <state x="800" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1607045932933" />
     <state x="804" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1606318778194" />
     <state x="592" y="147" key="FileChooserDialogImpl" timestamp="1606883752750">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="592" y="147" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1606883752750" />
-    <state width="1317" height="282" key="GridCell.Tab.0.bottom" timestamp="1606884819651">
+    <state width="1317" height="2" key="GridCell.Tab.0.bottom" timestamp="1607100361558">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="282" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1606884819651" />
-    <state width="1317" height="282" key="GridCell.Tab.0.center" timestamp="1606884819651">
+    <state width="1317" height="2" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1607100361558" />
+    <state width="1317" height="2" key="GridCell.Tab.0.center" timestamp="1607100361558">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="282" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1606884819651" />
-    <state width="1317" height="282" key="GridCell.Tab.0.left" timestamp="1606884819651">
+    <state width="1317" height="2" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1607100361558" />
+    <state width="1317" height="2" key="GridCell.Tab.0.left" timestamp="1607100361558">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="282" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1606884819651" />
-    <state width="1317" height="282" key="GridCell.Tab.0.right" timestamp="1606884819651">
+    <state width="1317" height="2" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1607100361558" />
+    <state width="1317" height="2" key="GridCell.Tab.0.right" timestamp="1607100361558">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="282" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1606884819651" />
+    <state width="1317" height="2" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1607100361558" />
     <state x="320" y="0" key="SettingsEditor" timestamp="1606883802359">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
