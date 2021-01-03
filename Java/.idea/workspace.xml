@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java2/Lab9/Self" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -240,6 +240,7 @@
       <workItem from="1605661505675" duration="3780000" />
       <workItem from="1605665385971" duration="20000" />
       <workItem from="1606269548679" duration="86000" />
+      <workItem from="1609295105023" duration="24000" />
     </task>
     <servers />
   </component>

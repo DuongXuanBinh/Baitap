@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Session 5\\Snippet 6\\Snippet 6.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 5\\Snippet 6\\Snippet 6.csproj",
       "projectName": "Snippet 6",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Session 5\\Snippet 6\\Snippet 6.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 5\\Snippet 6\\Snippet 6.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Session 5\\Snippet 6\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 5\\Snippet 6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
