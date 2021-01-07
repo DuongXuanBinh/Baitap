@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Assigment 6\\Pharma\\Pharma.csproj": {}
+    "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Assigment 6\\Pharma\\Pharma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Assigment 6\\Pharma\\Pharma.csproj": {
+    "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Assigment 6\\Pharma\\Pharma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Assigment 6\\Pharma\\Pharma.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Assigment 6\\Pharma\\Pharma.csproj",
         "projectName": "Pharma",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Assigment 6\\Pharma\\Pharma.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Assigment 6\\Pharma\\Pharma.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Assigment 6\\Pharma\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Assigment 6\\Pharma\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

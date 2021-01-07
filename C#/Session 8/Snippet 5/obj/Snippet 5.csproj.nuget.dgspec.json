@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Session 8\\Snippet 5\\Snippet 5.csproj": {}
+    "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 8\\Snippet 5\\Snippet 5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Session 8\\Snippet 5\\Snippet 5.csproj": {
+    "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 8\\Snippet 5\\Snippet 5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Session 8\\Snippet 5\\Snippet 5.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 8\\Snippet 5\\Snippet 5.csproj",
         "projectName": "Snippet 5",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Session 8\\Snippet 5\\Snippet 5.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 8\\Snippet 5\\Snippet 5.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Session 8\\Snippet 5\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Session 8\\Snippet 5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
