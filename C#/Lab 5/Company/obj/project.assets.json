@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\Lab 05\\Company\\Company.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Company\\Company.csproj",
       "projectName": "Company",
-      "projectPath": "C:\\C#\\Lab 05\\Company\\Company.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\Lab 05\\Company\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Company\\Company.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Company\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

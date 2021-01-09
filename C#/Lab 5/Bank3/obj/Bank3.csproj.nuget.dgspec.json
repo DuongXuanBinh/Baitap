@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\Lab 05\\Bank3\\Bank3.csproj": {}
+    "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Bank3\\Bank3.csproj": {}
   },
   "projects": {
-    "C:\\C#\\Lab 05\\Bank3\\Bank3.csproj": {
+    "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Bank3\\Bank3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\Lab 05\\Bank3\\Bank3.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Bank3\\Bank3.csproj",
         "projectName": "Bank3",
-        "projectPath": "C:\\C#\\Lab 05\\Bank3\\Bank3.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\Lab 05\\Bank3\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Bank3\\Bank3.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Aptech\\GitHub\\Baitap\\C#\\Lab 5\\Bank3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
