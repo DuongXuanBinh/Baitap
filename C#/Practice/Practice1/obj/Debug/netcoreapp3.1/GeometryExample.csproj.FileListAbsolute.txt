@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Practice\Practice1\bin\Debug\netcoreapp3.1\GeometryExample.exe
+C:\Users\User\source\repos\Practice\Practice1\bin\Debug\netcoreapp3.1\GeometryExample.deps.json
+C:\Users\User\source\repos\Practice\Practice1\bin\Debug\netcoreapp3.1\GeometryExample.runtimeconfig.json
+C:\Users\User\source\repos\Practice\Practice1\bin\Debug\netcoreapp3.1\GeometryExample.runtimeconfig.dev.json
+C:\Users\User\source\repos\Practice\Practice1\bin\Debug\netcoreapp3.1\GeometryExample.dll
+C:\Users\User\source\repos\Practice\Practice1\bin\Debug\netcoreapp3.1\GeometryExample.pdb
+C:\Users\User\source\repos\Practice\Practice1\obj\Debug\netcoreapp3.1\GeometryExample.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Practice\Practice1\obj\Debug\netcoreapp3.1\GeometryExample.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Practice\Practice1\obj\Debug\netcoreapp3.1\GeometryExample.AssemblyInfo.cs
+C:\Users\User\source\repos\Practice\Practice1\obj\Debug\netcoreapp3.1\GeometryExample.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Practice\Practice1\obj\Debug\netcoreapp3.1\GeometryExample.dll
+C:\Users\User\source\repos\Practice\Practice1\obj\Debug\netcoreapp3.1\GeometryExample.pdb
+C:\Users\User\source\repos\Practice\Practice1\obj\Debug\netcoreapp3.1\GeometryExample.genruntimeconfig.cache
