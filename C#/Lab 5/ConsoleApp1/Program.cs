@@ -1,21 +1,16 @@
 ﻿using System;
-
-namespace ConsoleApp1
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            int x = 1;
-            Console.WriteLine("Before the call, x is " + x);
-            Increment(x);
-            Console.WriteLine("Before the call, x is " + x);
-        }
+        Employee.NextId = 1000000;
+        Employee employee1 = new Employee("Inigo", "Montoya");
+        Employee employee2 = new Employee("Princess", "Buttercup");
+        Console.WriteLine("{0} {1} ({2})", employee1.FirstName, employee1.LastName, employee1.Id);
+        Console.WriteLine("{0} {1} ({2})", employee2.FirstName, employee2.LastName, employee2.Id);
+        Console.WriteLine($"NextId = { Employee.NextId }");
 
-        public static void Increment(int n)
-        {
-            n++;
-            Console.WriteLine("n inside the method is " + n);
-        }
+        Console.ReadKey();
     }
+    // ... khai báo của lớp Employee nằm đây, bỏ qua cho gọn code
 }
