@@ -148,17 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ebook.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/Java2/Lab9/ebook.sql" />
       <script-mode>FILE</script-mode>
@@ -256,6 +245,8 @@
       <workItem from="1609835106919" duration="254000" />
       <workItem from="1609897863056" duration="1321000" />
       <workItem from="1609902535540" duration="411000" />
+      <workItem from="1613959488896" duration="89000" />
+      <workItem from="1613964784666" duration="98000" />
     </task>
     <servers />
   </component>

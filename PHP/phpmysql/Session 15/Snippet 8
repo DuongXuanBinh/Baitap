@@ -1,0 +1,11 @@
+<HTML>
+<BODY>
+<FORM METHOD = GET ACTION = "cube.php">
+Enter the number:
+<INPUT TYPE="TEXT" NAME ="n1text">
+<Br>
+<br>
+<INPUT TYPE="SUBMIT" NAME="CUBE" VALUE="CUBE">
+<BR>
+</BODY>
+</HTML>

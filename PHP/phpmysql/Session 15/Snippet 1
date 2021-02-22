@@ -1,0 +1,10 @@
+<HTML>
+<BODY>
+<FORM METHOD="GET" ACTION = "squareroot.php">
+Enter a Number:
+<INPUT TYPE="TEXT" NAME ="n1text">
+<BR>
+<BR>
+<INPUT TYPE = "SUBMIT" NAME ="SQUARE ROOT" VALUE = "SQUARE ROOT">
+</BODY>
+</HTML>

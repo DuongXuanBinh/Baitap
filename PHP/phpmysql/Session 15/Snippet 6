@@ -1,0 +1,11 @@
+<HTML>
+<BODY>
+<H3>Calculate Dearness Allowance</H3>
+<FORM METHOD="GET" ACTION ="dearnessallowance.php">
+Enter your basic salary in USD:
+<INPUT TYPE = "TEXT" NAME="num1text">
+<br><br>
+<INPUT TYPE="SUBMIT" NAME="Dearness Allowance" VALUE="Dearness Allowance">
+<br>
+</BODY>
+</HTML>

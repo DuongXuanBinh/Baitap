@@ -1,0 +1,14 @@
+<HTML>
+<BODY>
+<H3>Sign In<H3>
+<FORM METHOD=GET ACTION="Authentication.php">
+Enter User Name
+<INPUT TYPE="TEXT" NAME="NAME">
+<BR><BR>
+Enter Password &nbsp;&nbsp;
+<INPUT TYPE="TEXT" NAME="passtext">
+<BR><BR>
+<INPUT TYPE="SUBMIT" NAME="CONFIRM" VALUE="LOG IN">
+<BR>
+</BODY>
+</HTML>

@@ -1,0 +1,17 @@
+<HTML>
+<BODY>
+<B>Simple Interest</B>
+<FORM METHOD=GET ACTION ="simpleinterest.php">
+Enter the Principal Amount:
+<INPUT TYPE="TEXT" NAME="n1text">
+<br><br>
+Enter the Rate of Interest:&nbsp;&nbsp;&nbsp;&nbsp;
+<INPUT TYPE="TEXT" NAME="n2text">
+<br><br>
+Enter the Number of Years:&nbsp;
+<INPUT TYPE="TEXT" NAME="n3text">
+<br><br>
+<INPUT TYPE="SUBMIT" NAME="CALCULATE" VALUE="CALCULATE">
+<br>
+</BODY>
+</HTML>
