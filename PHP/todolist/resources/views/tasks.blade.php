@@ -49,7 +49,7 @@
                                         {{csrf_field()}}
                                         {{method_field('DELETE')}}
                                         <button>Delete task</button>
-                                        <input type="hidden" name="_method" value="DELETE">
+{{--                                        <input type="hidden" name="_method" value="DELETE">--}}
                                     </form>
                                 </td>
                             </tr>

@@ -1,5 +1,5 @@
 <?php
-//Enable error reporting
+//Enable errors reporting
 error_reporting(-1);
 define("NAME","John Smith");
 echo NAME;

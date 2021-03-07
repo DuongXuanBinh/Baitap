@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,19 +13,20 @@ use Illuminate\Support\Facades\Route;
 */
 use App\Models\Task;
 use Illuminate\Http\Request;
+use Symfony\Component\Console\Input\Input;
+
 //Route::get('/', function () {
 //    return view('welcome');
 //});
 //show task dashboard
 Route::get('/',function (){
     $tasks = Task::orderBy('created_at','desc')->get();
-    return view('tasks',['tasks'=>$tasks]);
-
+    return view('tasks')->with(['tasks'=>$tasks]);
 });
 
 Route::post('task',function(Request $request){
     $validator = Validator::make($request-> all(),[
-        'name'=>'required|max:255',
+        'name'=>'required|max:5',
     ]);
     if($validator->fails()){
         return redirect('/')
