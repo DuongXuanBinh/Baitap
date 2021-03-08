@@ -1,3 +1,4 @@
+
 <?php
 require_once 'login.php';
 
@@ -32,6 +33,7 @@ if(mysqli_num_rows($result)>0){
 else
     echo "No record found";
 
+require_once 'add.php';
 mysqli_close($conn);
 ?>
 
