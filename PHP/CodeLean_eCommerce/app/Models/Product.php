@@ -18,14 +18,14 @@ class Product extends Model
     public function productCategory(){
         return $this->belongsTo(ProductCategory::class,'product_category_id','id');
     }
-    public function productImage(){
+    public function productImages(){
         return $this->hasMany(ProductImage::class,'product_id','id');
     }
     public function productDetails()
     {
         return $this->hasMany(ProductDetail::class, 'product_id', 'id');
     }
-    public function productComment()
+    public function productComments()
     {
         return $this->hasMany(ProductComment::class, 'product_id', 'id');
     }
