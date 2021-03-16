@@ -16,4 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Front\HomeController::class,'index']);
 
-Route::get('/shop/product/{id}',[Front\ShopController::class,'show']);
+
+
+Route::prefix('shop')->group(function (){
+    Route::get('/product/{id}',[Front\ShopController::class,'show']);
+
+    Route::post('/product/{id}',[Front\ShopController::class,'postComment']);
+
+    Route::get('/',[Front\ShopController::class,'index']);
+    Route::get('/{categoryName}',[Front\ShopController::class,'category']);
+});

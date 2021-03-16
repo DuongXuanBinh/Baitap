@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th3 15, 2021 lúc 05:57 AM
+-- Thời gian đã tạo: Th3 16, 2021 lúc 05:48 PM
 -- Phiên bản máy phục vụ: 10.4.17-MariaDB
--- Phiên bản PHP: 8.0.1
+-- Phiên bản PHP: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -245,7 +245,7 @@ CREATE TABLE `product_categories` (
 --
 
 INSERT INTO `product_categories` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(1, 'men', NULL, NULL),
+(1, 'Men', NULL, NULL),
 (2, 'Women', NULL, NULL),
 (3, 'Kids', NULL, NULL);
 
@@ -273,7 +273,8 @@ CREATE TABLE `product_comments` (
 
 INSERT INTO `product_comments` (`id`, `product_id`, `user_id`, `email`, `name`, `messages`, `rating`, `created_at`, `updated_at`) VALUES
 (1, 1, 4, 'BrandonKelley@gmail.com', 'Brandon Kelley', 'Great !', 2, '2021-03-03 04:34:21', NULL),
-(2, 1, 5, 'RoyBanks@gmail.com', 'Roy Banks', 'Nice !', 4, '2021-03-09 04:34:25', NULL);
+(2, 1, 5, 'RoyBanks@gmail.com', 'Roy Banks', 'Nice !', 4, '2021-03-09 04:34:25', NULL),
+(6, 1, NULL, 'CodeLean@gmail.com', 'CodeLean', 'Good', 5, '2021-03-15 02:37:06', '2021-03-15 02:37:06');
 
 -- --------------------------------------------------------
 
@@ -517,7 +518,7 @@ ALTER TABLE `product_categories`
 -- AUTO_INCREMENT cho bảng `product_comments`
 --
 ALTER TABLE `product_comments`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT cho bảng `product_details`

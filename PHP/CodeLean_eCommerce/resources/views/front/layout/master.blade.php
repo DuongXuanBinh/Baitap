@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="front/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="front/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="front/css/themify-icons.css" type="text/css">
@@ -76,13 +77,15 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7">
+                    <form action="shop">
                     <div class="advanced-search">
                         <button type="button" class="category-btn">All Categories</button>
                         <div class="input-group">
-                            <input type="text" placeholder="What do you need?">
-                            <button type="button"><i class="ti-search"></i></button>
+                            <input name="search" type="text" value="{{request('search')}}" placeholder="What do you need?">
+                            <button type="submit"><i class="ti-search"></i></button>
                         </div>
                     </div>
+                    </form>
                 </div>
                 <div class="col-lg-3 text-right col-md-3">
                     <ul class="nav-right">
@@ -164,8 +167,8 @@
             </div>
             <nav class="nav-menu mobile-menu">
                 <ul>
-                    <li class="active"><a href="./index.html">Home</a></li>
-                    <li><a href="./shop.html">Shop</a></li>
+                    <li class="{{(request()->segment(1)=='') ? ' active' : ''}}"><a href="./">Home</a></li>
+                    <li class="{{(request()->segment(1)=='shop') ? ' active' : ''}}"><a href="./shop">Shop</a></li>
                     <li><a href="#">Collection</a>
                         <ul class="dropdown">
                             <li><a href="#">Men's</a></li>
@@ -173,8 +176,8 @@
                             <li><a href="#">Kid's</a></li>
                         </ul>
                     </li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li class="{{(request()->segment(1)=='blog') ? ' active' : ''}}"><a href="./blog">Blog</a></li>
+                    <li class="{{(request()->segment(1)=='contact') ? ' active' : ''}}"><a href="./contact">Contact</a></li>
                     <li><a href="#">Pages</a>
                         <ul class="dropdown">
                             <li><a href="./blog-details.html">Blog Details</a></li>
@@ -321,6 +324,7 @@
 <script src="front/js/owl.carousel.min.js"></script>
 <script src="front/js/owlcarousel2-filter.min.js"></script>
 <script src="front/js/main.js"></script>
+{{--<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>--}}
 
 </body>
 
