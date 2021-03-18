@@ -14,7 +14,9 @@ class ShopController extends Controller
     public function show($id){
 
         $product = Product::findOrFail($id);
+        $categories = ProductCategory::all();
 
+        $brands = Brand::all();
         $avgRating= 0;
         $sumRating = array_sum(array_column($product->productComments->toArray(),'rating'));
         $countRating = count($product->productComments);
@@ -27,7 +29,7 @@ class ShopController extends Controller
             ->limit(4)
             ->get();
 
-        return view('front.shop.show',compact('product','avgRating','relatedProducts'));
+        return view('front.shop.show',compact('product','categories','brands','avgRating','relatedProducts'));
     }
     public function postComment(Request $request){
         ProductComment::create($request->all());
@@ -94,6 +96,27 @@ class ShopController extends Controller
         $brands = $request->brand ?? [];
         $brand_ids = array_keys($brands);
         $products = $brand_ids != null ? $products->whereIn('brand_id',$brand_ids) : $products;
+
+        $priceMin = $request->price_min;
+        $priceMax = $request->price_max;
+        $priceMin = str_replace('$','',$priceMin);
+        $priceMax = str_replace('$','',$priceMax);
+        $products = ($priceMin!=null && $priceMax!=null) ? $products->whereBetween('price',[$priceMin,$priceMax]) : $products;
+
+        $color = $request->color;
+        $products = $color != null
+            ? $products->whereHas('productDetails',function ($query) use ($color){
+                return $query->where('color',$color) -> where ('qty','>',0);
+            })
+            : $products;
+
+
+        $size = $request->size;
+        $products = $size!=null
+            ? $products->whereHas('productDetails',function ($query) use ($size){
+                return $query->where('size',$size) -> where ('qty','>',0);
+            })
+            : $products;
         return $products;
     }
 }
