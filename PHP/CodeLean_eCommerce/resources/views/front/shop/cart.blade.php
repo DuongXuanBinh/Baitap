@@ -15,6 +15,7 @@
                         <span>Shopping Cart</span>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -25,6 +26,7 @@
     <section class="shopping-cart spad">
         <div class="container">
             <div class="row">
+                @if(Cart::count()>0)
                 <div class="col-lg-12">
                     <div class="cart-table">
                         <table>
@@ -35,7 +37,7 @@
                                     <th>Price</th>
                                     <th>Quantity</th>
                                     <th>Total</th>
-                                    <th><i class="ti-close"></i></th>
+                                    <th><i onclick="confirm('Are you sure')===true ? window.location='./cart/destroy' : '' " class="ti-close" style="cursor: pointer"></i></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -49,12 +51,12 @@
                                     <td class="qua-col first-row">
                                         <div class="quantity">
                                             <div class="pro-qty">
-                                                <input type="text" value="{{$cart->qty}}">
+                                                <input type="text" value="{{$cart->qty}}" data-rowid="{{$cart->rowId}}">
                                             </div>
                                         </div>
                                     </td>
                                     <td class="total-price first-row">${{number_format($cart->price * $cart->qty,2)}}</td>
-                                    <td class="close-td first-row"><i class="ti-close"></i></td>
+                                    <td class="close-td first-row"><i onclick="window.location='./cart/delete/{{$cart->rowId}}'" class="ti-close"></i></td>
                                 </tr>
                                 @endforeach
                             </tbody>
@@ -80,11 +82,16 @@
                                     <li class="subtotal">Subtotal <span>{{$total}}</span></li>
                                     <li class="cart-total">Total <span>{{$subtotal}}</span></li>
                                 </ul>
-                                <a href="#" class="proceed-btn">PROCEED TO CHECK OUT</a>
+                                <a href="./checkout" class="proceed-btn">PROCEED TO CHECK OUT</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                @else
+                    <div  class="col-lg-12">
+                        <h4>Your cart is empty.</h4>
+                    </div>
+                @endif
             </div>
         </div>
     </section>

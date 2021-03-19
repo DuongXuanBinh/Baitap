@@ -33,4 +33,19 @@ class CartController extends Controller
 
         return view('front.shop.cart',compact('carts','total','subtotal'));
     }
+
+    public function delete($rowID){
+        Cart::remove($rowID);
+        return back();
+    }
+    public function destroy(){
+        Cart::destroy();
+        return back();
+    }
+
+    public function update(Request $request){
+        if($request->ajax()){
+            Cart::update($request->rowId,$request->qty);
+        }
+    }
 }

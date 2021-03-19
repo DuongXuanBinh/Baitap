@@ -114,7 +114,7 @@
                                                 </div>
                                             </td>
                                             <td class="si-close">
-                                                <i class="ti-close"></i>
+                                                <i  onclick="window.location='./cart/delete/{{$cart->rowId}}'" class="ti-close"></i>
                                             </td>
                                         </tr>
                                         @endforeach
@@ -127,11 +127,11 @@
                                 </div>
                                 <div class="select-button">
                                     <a href="./cart" class="primary-btn view-card">VIEW CARD</a>
-                                    <a href="check-out.html" class="primary-btn checkout-btn">CHECK OUT</a>
+                                    <a href="./checkout" class="primary-btn checkout-btn">CHECK OUT</a>
                                 </div>
                             </div>
                         </li>
-                        <li class="cart-price">$150.00</li>
+                        <li class="cart-price">${{Cart::total()}}</li>
                     </ul>
                 </div>
             </div>
