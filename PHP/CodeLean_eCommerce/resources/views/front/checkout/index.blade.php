@@ -30,7 +30,9 @@
         <div class="container">
             <form action="" method="post" class="checkout-form">
                 @csrf
+
                 <div class="row">
+                    @if(Cart::count()>0)
                     <div class="col-lg-6">
                         <div class="checkout-content">
                             <a href="#" class="content-btn">Click Here To Login</a>
@@ -43,7 +45,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <label for="last">Last Name<span>*</span></label>
-                                <input type="text" id="last" name="flast_name">
+                                <input type="text" id="last" name="last_name">
                             </div>
                             <div class="col-lg-12">
                                 <label for="cun-name">Company Name</label>
@@ -55,8 +57,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <label for="street">Street Address<span>*</span></label>
-                                <input type="text" id="street" class="street-first"  name="street-first">
-                                <input type="text">
+                                <input type="text" id="street" class="street-first"  name="street_address">
                             </div>
                             <div class="col-lg-12">
                                 <label for="zip">Postcode / ZIP (optional)</label>
@@ -122,6 +123,11 @@
                             </div>
                         </div>
                     </div>
+                    @else
+                    <div class="col-lg-12">
+                        <h4>Your cart is empty</h4>
+                    </div>
+                    @endif
                 </div>
             </form>
         </div>
