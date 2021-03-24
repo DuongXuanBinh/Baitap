@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th3 20, 2021 lúc 07:05 AM
--- Phiên bản máy phục vụ: 10.4.18-MariaDB
--- Phiên bản PHP: 8.0.3
+-- Thời gian đã tạo: Th3 22, 2021 lúc 07:36 AM
+-- Phiên bản máy phục vụ: 10.4.17-MariaDB
+-- Phiên bản PHP: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -155,9 +155,18 @@ CREATE TABLE `orders` (
   `town_city` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `phone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `payment_type` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `orders`
+--
+
+INSERT INTO `orders` (`id`, `first_name`, `last_name`, `company_name`, `country`, `street_address`, `postcode_zip`, `town_city`, `email`, `phone`, `payment_type`, `created_at`, `updated_at`) VALUES
+(2, 'Nguyen Van', 'A', 'Code Lean', 'VietNam', '1A Yet Kieu', '100000', 'Ha Noi', 'xuanbinh1011@gmail.com', '11111111111', 'pay_later', '2021-03-20 00:03:11', '2021-03-20 00:03:11'),
+(3, 'Nguyen Van', 'A', 'Code Lean', 'VietNam', '1A Yet Kieu', '100000', 'Ha Noi', 'xuanbinh1011@gmail.com', '11111111111', 'pay_later', '2021-03-20 07:09:24', '2021-03-20 07:09:24');
 
 -- --------------------------------------------------------
 
@@ -175,6 +184,18 @@ CREATE TABLE `order_details` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `order_details`
+--
+
+INSERT INTO `order_details` (`id`, `order_id`, `product_id`, `qty`, `amount`, `total`, `created_at`, `updated_at`) VALUES
+(2, 2, 1, 1, 495, 495, '2021-03-20 00:03:11', '2021-03-20 00:03:11'),
+(3, 2, 2, 1, 13, 13, '2021-03-20 00:03:11', '2021-03-20 00:03:11'),
+(4, 2, 3, 1, 34, 34, '2021-03-20 00:03:11', '2021-03-20 00:03:11'),
+(5, 3, 1, 1, 495, 495, '2021-03-20 07:09:24', '2021-03-20 07:09:24'),
+(6, 3, 2, 1, 13, 13, '2021-03-20 07:09:24', '2021-03-20 07:09:24'),
+(7, 3, 3, 1, 34, 34, '2021-03-20 07:09:24', '2021-03-20 07:09:24');
 
 -- --------------------------------------------------------
 
@@ -494,13 +515,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT cho bảng `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT cho bảng `order_details`
 --
 ALTER TABLE `order_details`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT cho bảng `products`
